@@ -1,0 +1,20 @@
+name: Update Commodity Data
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Commit & Push
+        run: |
+          git config user.name "Commodity Bot"
+          git config user.email "bot@commodity-dashboard"
+          git add data/commodities.json
+          git diff --quiet && git diff --staged --quiet || \
+            git commit -m "auto: update data"
+          git push
