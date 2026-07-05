@@ -354,7 +354,7 @@
           "data_points": 10
         },
         {
-          "name": "Ammonia CFR",
+          "name": "Ammonia FE",
           "price": 737.6,
           "raw_price": 737.6,
           "unit": "USD/T",
@@ -404,7 +404,7 @@
           "data_points": 20
         },
         {
-          "name": "Ammonia FOB",
+          "name": "Ammonia ME",
           "price": 664.6,
           "raw_price": 664.6,
           "unit": "USD/T",
@@ -459,10 +459,10 @@
         {
           "id": "ammonia",
           "commodities": [
-            "Ammonia CFR",
-            "Ammonia FOB"
+            "Ammonia FE",
+            "Ammonia ME"
           ],
-          "title": "Ammonia (CFR vs FOB)"
+          "title": "Ammonia (FE vs ME)"
         }
       ]
     },

@@ -1,9 +1,31 @@
-// Charts.js — Commodity line chart renderer. Supports single and dual-line combined charts.
-function renderSingleChart(canvasId, commodity) {
+// Charts.js — Commodity line chart renderer. Aligned date axis + right-side y-axis.
+function sortDateLabels(labels) {
+  var unique = {};
+  labels.forEach(function(l) { unique[l] = true; });
+  return Object.keys(unique).sort(function(a, b) {
+    var pa = a.split('/'), pb = b.split('/');
+    if (pa[1] !== pb[1]) return parseInt(pa[1]) - parseInt(pb[1]);
+    return parseInt(pa[0]) - parseInt(pb[0]);
+  });
+}
+
+function alignCommoditiesToAxis(commodities, unifiedLabels) {
+  return commodities.map(function(c) {
+    var pts = c.history || [];
+    var lbls = c.labels || [];
+    var lookup = {};
+    for (var i = 0; i < lbls.length; i++) lookup[lbls[i]] = pts[i];
+    return unifiedLabels.map(function(l) {
+      return lookup[l] !== undefined ? lookup[l] : null;
+    });
+  });
+}
+
+function renderSingleChart(canvasId, commodity, fixedLabels, alignedData) {
   var ctx = document.getElementById(canvasId);
   if (!ctx) return;
-  var pts = commodity.history || [];
-  var lbls = commodity.labels || [];
+  var pts = alignedData || commodity.history || [];
+  var lbls = fixedLabels || commodity.labels || [];
   if (pts.length < 2) {
     ctx.parentElement.innerHTML = '<div style="text-align:center;padding:60px 0;color:#6c6c80;font-size:13px;">Insufficient data</div>';
     return;
@@ -20,7 +42,8 @@ function renderSingleChart(canvasId, commodity) {
         borderWidth: 2, fill: false, tension: 0.1,
         pointBackgroundColor: commodity.color || '#4fc3f7',
         pointBorderColor: '#1a1a2e', pointBorderWidth: 1,
-        pointRadius: pts.length > 15 ? 2 : 3
+        pointRadius: pts.length > 15 ? 2 : 3,
+        spanGaps: true
       }]
     },
     options: {
@@ -38,36 +61,56 @@ function renderSingleChart(canvasId, commodity) {
       },
       scales: {
         x: { grid: { color: 'rgba(255,255,255,0.04)', drawBorder: false }, ticks: { color: '#6c6c80', font: { size: 10 }, maxRotation: 45 } },
-        y: { display: false, grid: { display: false }, ticks: { display: false } }
+        y: { display: true, position: 'right', grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#6c6c80', font: { size: 10 } } }
       },
       elements: { point: { radius: 3, hoverRadius: 5 } }
     }
   });
 }
 
-// Dual-line combined chart (e.g. Ammonia CFR + FOB on one canvas)
-function renderCombinedChart(canvasId, group, commodities) {
+function renderCombinedChart(canvasId, group, commodities, fixedLabels, alignedDatasets) {
   var ctx = document.getElementById(canvasId);
   if (!ctx) return;
 
   var datasets = [];
-  var allLabels = [];
-  commodities.forEach(function(c) {
-    var pts = c.history || [];
-    var lbls = c.labels || [];
-    if (pts.length < 2) return;
-    if (lbls.length > allLabels.length) allLabels = lbls;
-    datasets.push({
-      label: c.name + ' (' + c.unit + ')',
-      data: pts,
-      borderColor: c.color || '#4fc3f7',
-      backgroundColor: c.color || '#4fc3f7',
-      borderWidth: 2, fill: false, tension: 0.1,
-      pointBackgroundColor: c.color || '#4fc3f7',
-      pointBorderColor: '#1a1a2e', pointBorderWidth: 1,
-      pointRadius: pts.length > 15 ? 2 : 3
+  var allLabels = fixedLabels || [];
+
+  if (alignedDatasets) {
+    for (var i = 0; i < commodities.length; i++) {
+      var c = commodities[i];
+      var pts = alignedDatasets[i] || [];
+      if (pts.length < 2) continue;
+      datasets.push({
+        label: c.name + ' (' + c.unit + ')',
+        data: pts,
+        borderColor: c.color || '#4fc3f7',
+        backgroundColor: c.color || '#4fc3f7',
+        borderWidth: 2, fill: false, tension: 0.1,
+        pointBackgroundColor: c.color || '#4fc3f7',
+        pointBorderColor: '#1a1a2e', pointBorderWidth: 1,
+        pointRadius: pts.length > 15 ? 2 : 3,
+        spanGaps: true
+      });
+    }
+  } else {
+    commodities.forEach(function(c) {
+      var pts = c.history || [];
+      var lbls = c.labels || [];
+      if (pts.length < 2) return;
+      if (lbls.length > allLabels.length) allLabels = lbls;
+      datasets.push({
+        label: c.name + ' (' + c.unit + ')',
+        data: pts,
+        borderColor: c.color || '#4fc3f7',
+        backgroundColor: c.color || '#4fc3f7',
+        borderWidth: 2, fill: false, tension: 0.1,
+        pointBackgroundColor: c.color || '#4fc3f7',
+        pointBorderColor: '#1a1a2e', pointBorderWidth: 1,
+        pointRadius: pts.length > 15 ? 2 : 3,
+        spanGaps: true
+      });
     });
-  });
+  }
 
   if (datasets.length < 1) {
     ctx.parentElement.innerHTML = '<div style="text-align:center;padding:60px 0;color:#6c6c80;font-size:13px;">Insufficient data</div>';
@@ -96,21 +139,28 @@ function renderCombinedChart(canvasId, group, commodities) {
       },
       scales: {
         x: { grid: { color: 'rgba(255,255,255,0.04)', drawBorder: false }, ticks: { color: '#6c6c80', font: { size: 10 }, maxRotation: 45 } },
-        y: { display: false, grid: { display: false }, ticks: { display: false } }
+        y: { display: true, position: 'right', grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#6c6c80', font: { size: 10 } } }
       },
       elements: { point: { radius: 3, hoverRadius: 5 } }
     }
   });
 }
 
-// Render all charts for a sector panel
 function renderSectorCharts(panel, sector) {
   var commodities = sector.commodities || [];
   var chartGroups = sector.chart_groups || [];
   var grid = panel.querySelector('.chart-grid');
   grid.innerHTML = '';
 
-  // Track which commodities are in chart groups (skip individual chart)
+  // Collect ALL date labels from all commodities in this sector
+  var allLabels = [];
+  commodities.forEach(function(c) {
+    (c.labels || []).forEach(function(l) {
+      if (allLabels.indexOf(l) === -1) allLabels.push(l);
+    });
+  });
+  var unifiedLabels = sortDateLabels(allLabels);
+
   var groupedNames = {};
   chartGroups.forEach(function(g) {
     (g.commodities || []).forEach(function(n) { groupedNames[n] = true; });
@@ -136,8 +186,10 @@ function renderSectorCharts(panel, sector) {
     card.appendChild(wr);
     grid.appendChild(card);
 
+    var alignedData = alignCommoditiesToAxis(members, unifiedLabels);
+
     requestAnimationFrame(function() {
-      renderCombinedChart('group-chart-' + panel.dataset.sector + '-' + gi, g, members);
+      renderCombinedChart('group-chart-' + panel.dataset.sector + '-' + gi, g, members, unifiedLabels, alignedData);
     });
   });
 
@@ -158,8 +210,10 @@ function renderSectorCharts(panel, sector) {
     card.appendChild(wr);
     grid.appendChild(card);
 
+    var aligned = alignCommoditiesToAxis([c], unifiedLabels);
+
     requestAnimationFrame(function() {
-      renderSingleChart('chart-' + panel.dataset.sector + '-' + i, c);
+      renderSingleChart('chart-' + panel.dataset.sector + '-' + i, c, unifiedLabels, aligned[0]);
     });
   });
 }
