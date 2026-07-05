@@ -13,8 +13,9 @@ function alignCommoditiesToAxis(commodities, unifiedLabels) {
   return commodities.map(function(c) {
     var pts = c.history || [];
     var lbls = c.labels || [];
+    var offset = pts.length - lbls.length;
     var lookup = {};
-    for (var i = 0; i < lbls.length; i++) lookup[lbls[i]] = pts[i];
+    for (var i = 0; i < lbls.length; i++) lookup[lbls[i]] = pts[offset + i];
     return unifiedLabels.map(function(l) {
       return lookup[l] !== undefined ? lookup[l] : null;
     });
