@@ -16,16 +16,19 @@ CACHE_KEY_MAP = {
 }
 
 SECTOR_CONFIG = {
-    "Energy": {"icon": "⚡", "items": ["Coal", "Brent", "Coal/Gold"]},
-    "Fertilizer & Feedstock": {"icon": "\U0001f9ea", "items": ["LNG JKM", "Urea", "DAP", "Ammonia FE", "Ammonia ME"]},
+    "Energy": {"icon": "⚡", "items": ["Coal", "Brent", "Coal/Gold", "Polyethylene", "PP"]},
+    "Fertilizer & Feedstock": {"icon": "🧪", "items": ["LNG JKM", "Urea", "DAP", "Ammonia FE", "Ammonia ME"]},
     "Metals": {"icon": "🏅", "items": ["Gold", "Copper", "Copper/Gold"]},
-    "Plastics & Agri": {"icon": "🛢️", "items": ["CPO", "Polyethylene", "PP"]},
+    "Agriculture": {"icon": "🌾", "items": ["CPO"]},
 }
 
 # Commodities to render as dual-line charts (share one canvas)
 CHART_GROUPS = {
     "Fertilizer & Feedstock": [
         {"id": "ammonia", "commodities": ["Ammonia FE", "Ammonia ME"], "title": "Ammonia (FE vs ME)"},
+    ],
+    "Energy": [
+        {"id": "plastics", "commodities": ["Polyethylene", "PP"], "title": "Polyethylene & PP"},
     ],
 }
 
