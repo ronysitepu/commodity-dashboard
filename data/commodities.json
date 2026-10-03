@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-03T05:00:23Z",
-  "updated_label": "03 Oct 2026 05:00 UTC",
+  "updated": "2026-10-03T09:00:27Z",
+  "updated_label": "03 Oct 2026 09:00 UTC",
   "sectors": [
     {
       "name": "Energy",
@@ -940,13 +940,13 @@
         },
         {
           "name": "Copper/Gold",
-          "price": 1.58,
-          "raw_price": 1.58,
+          "price": 1.56,
+          "raw_price": 1.56,
           "unit": "\u00d71000",
           "color": "#26a69a",
-          "change_1d": 1.9,
-          "change_1w": 0.6,
-          "trend": "\u2192",
+          "change_1d": 0.6,
+          "change_1w": -0.6,
+          "trend": "\u2198",
           "history": [
             1.47,
             1.47,
@@ -977,7 +977,7 @@
             1.58,
             1.56,
             1.55,
-            1.58
+            1.56
           ],
           "labels": [
             "04/09",
