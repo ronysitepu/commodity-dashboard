@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-15T17:00:08Z",
-  "updated_label": "15 Oct 2026 17:00 UTC",
+  "updated": "2026-10-15T21:00:12Z",
+  "updated_label": "15 Oct 2026 21:00 UTC",
   "sectors": [
     {
       "name": "Energy",
@@ -83,12 +83,12 @@
         },
         {
           "name": "Brent",
-          "price": 106.2,
-          "raw_price": 106.207,
+          "price": 105.7,
+          "raw_price": 105.717,
           "unit": "USD/Bbl",
           "color": "#ef5350",
-          "change_1d": 1.9,
-          "change_1w": 2.8,
+          "change_1d": 1.4,
+          "change_1w": 2.3,
           "trend": "\u2192",
           "history": [
             104.81999969482422,
@@ -120,7 +120,7 @@
             104.987,
             105.853,
             104.27,
-            106.207
+            105.717
           ],
           "labels": [
             "17/09",
@@ -158,12 +158,12 @@
         },
         {
           "name": "Coal/Gold",
-          "price": 3.61,
-          "raw_price": 3.61,
+          "price": 3.59,
+          "raw_price": 3.59,
           "unit": "\u00d7100",
           "color": "#78909c",
-          "change_1d": 0.0,
-          "change_1w": 1.4,
+          "change_1d": -0.6,
+          "change_1w": 0.8,
           "trend": "\u2197",
           "history": [
             3.29,
@@ -195,7 +195,7 @@
             3.55,
             3.65,
             3.61,
-            3.61
+            3.59
           ],
           "labels": [
             "17/09",
@@ -233,13 +233,13 @@
         },
         {
           "name": "Polyethylene",
-          "price": 1319.0,
-          "raw_price": 1319.25,
+          "price": 1340.0,
+          "raw_price": 1340.25,
           "unit": "USD/T",
           "color": "#4fc3f7",
-          "change_1d": 0.0,
-          "change_1w": 0.8,
-          "trend": "\u2192",
+          "change_1d": 1.6,
+          "change_1w": 2.4,
+          "trend": "\u2197",
           "history": [
             1282.89,
             1275.29,
@@ -270,7 +270,7 @@
             1332.51,
             1332.51,
             1319.25,
-            1319.25
+            1340.25
           ],
           "labels": [
             "17/09",
@@ -399,12 +399,12 @@
       "commodities": [
         {
           "name": "LNG JKM",
-          "price": 26.39,
-          "raw_price": 26.39,
+          "price": 26.53,
+          "raw_price": 26.53,
           "unit": "USD/MMBTU",
           "color": "#ffa726",
-          "change_1d": 0.0,
-          "change_1w": 1.7,
+          "change_1d": 0.5,
+          "change_1w": 2.2,
           "trend": "\u2197",
           "history": [
             27.77,
@@ -436,7 +436,7 @@
             26.09,
             26.27,
             26.39,
-            26.39
+            26.53
           ],
           "labels": [
             "17/09",
@@ -790,13 +790,13 @@
       "commodities": [
         {
           "name": "Gold",
-          "price": 4170.0,
-          "raw_price": 4170.2001953125,
+          "price": 4190.0,
+          "raw_price": 4190.5,
           "unit": "USD/oz",
           "color": "#ffd54f",
-          "change_1d": 0.1,
-          "change_1w": -0.8,
-          "trend": "\u2198",
+          "change_1d": 0.6,
+          "change_1w": -0.3,
+          "trend": "\u2192",
           "history": [
             4399.7001953125,
             4424.89990234375,
@@ -827,7 +827,7 @@
             4206.2001953125,
             4124.60009765625,
             4164.2001953125,
-            4170.2001953125
+            4190.5
           ],
           "labels": [
             "17/09",
@@ -865,12 +865,12 @@
         },
         {
           "name": "Copper",
-          "price": 6.56,
-          "raw_price": 6.55649995803833,
+          "price": 6.57,
+          "raw_price": 6.565499782562256,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": 0.0,
-          "change_1w": -1.9,
+          "change_1d": 0.2,
+          "change_1w": -1.8,
           "trend": "\u2198",
           "history": [
             6.58650016784668,
@@ -902,7 +902,7 @@
             6.742000102996826,
             6.748000144958496,
             6.553500175476074,
-            6.55649995803833
+            6.565499782562256
           ],
           "labels": [
             "17/09",
