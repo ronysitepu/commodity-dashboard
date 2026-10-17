@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-16T21:00:37Z",
-  "updated_label": "16 Oct 2026 21:00 UTC",
+  "updated": "2026-10-17T01:00:41Z",
+  "updated_label": "17 Oct 2026 01:00 UTC",
   "sectors": [
     {
       "name": "Energy",
@@ -8,12 +8,12 @@
       "commodities": [
         {
           "name": "Coal",
-          "price": 149.7,
-          "raw_price": 149.65,
+          "price": 150.4,
+          "raw_price": 150.4,
           "unit": "USD/T",
           "color": "#ff6b6b",
-          "change_1d": 0.0,
-          "change_1w": 0.5,
+          "change_1d": 0.5,
+          "change_1w": 1.0,
           "trend": "\u2192",
           "history": [
             144.75,
@@ -45,7 +45,7 @@
             150.4,
             150.35,
             149.65,
-            149.65
+            150.4
           ],
           "labels": [
             "18/09",
@@ -84,10 +84,10 @@
         {
           "name": "Brent",
           "price": 109.7,
-          "raw_price": 109.663,
+          "raw_price": 109.69,
           "unit": "USD/Bbl",
           "color": "#ef5350",
-          "change_1d": 3.5,
+          "change_1d": 3.6,
           "change_1w": 5.0,
           "trend": "\u2197",
           "history": [
@@ -120,7 +120,7 @@
             105.853,
             104.27,
             105.918,
-            109.663
+            109.69
           ],
           "labels": [
             "18/09",
@@ -158,13 +158,13 @@
         },
         {
           "name": "Coal/Gold",
-          "price": 3.58,
-          "raw_price": 3.58,
+          "price": 3.59,
+          "raw_price": 3.59,
           "unit": "\u00d7100",
           "color": "#78909c",
-          "change_1d": 0.3,
-          "change_1w": 1.4,
-          "trend": "\u2192",
+          "change_1d": 0.6,
+          "change_1w": 1.7,
+          "trend": "\u2197",
           "history": [
             3.27,
             3.27,
@@ -195,7 +195,7 @@
             3.65,
             3.61,
             3.57,
-            3.58
+            3.59
           ],
           "labels": [
             "18/09",
@@ -474,12 +474,12 @@
         },
         {
           "name": "Urea",
-          "price": 461.5,
-          "raw_price": 461.5,
+          "price": 457.5,
+          "raw_price": 457.5,
           "unit": "USD/T",
           "color": "#66bb6a",
-          "change_1d": 0.0,
-          "change_1w": 5.2,
+          "change_1d": -0.9,
+          "change_1w": 4.3,
           "trend": "\u2197",
           "history": [
             460.0,
@@ -511,7 +511,7 @@
             450.0,
             452.5,
             461.5,
-            461.5
+            457.5
           ],
           "labels": [
             "18/09",
@@ -790,11 +790,11 @@
       "commodities": [
         {
           "name": "Gold",
-          "price": 4188.0,
-          "raw_price": 4187.60009765625,
+          "price": 4187.0,
+          "raw_price": 4186.7001953125,
           "unit": "USD/oz",
           "color": "#ffd54f",
-          "change_1d": -0.2,
+          "change_1d": -0.3,
           "change_1w": -0.7,
           "trend": "\u2192",
           "history": [
@@ -827,7 +827,7 @@
             4124.60009765625,
             4164.2001953125,
             4197.2001953125,
-            4187.60009765625
+            4186.7001953125
           ],
           "labels": [
             "18/09",
@@ -866,7 +866,7 @@
         {
           "name": "Copper",
           "price": 6.56,
-          "raw_price": 6.5625,
+          "raw_price": 6.561999797821045,
           "unit": "USD/lb",
           "color": "#ff7043",
           "change_1d": -1.0,
@@ -902,7 +902,7 @@
             6.748000144958496,
             6.553500175476074,
             6.630000114440918,
-            6.5625
+            6.561999797821045
           ],
           "labels": [
             "18/09",
