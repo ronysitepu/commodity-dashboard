@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-18T17:00:26Z",
-  "updated_label": "18 Oct 2026 17:00 UTC",
+  "updated": "2026-10-18T21:00:30Z",
+  "updated_label": "18 Oct 2026 21:00 UTC",
   "sectors": [
     {
       "name": "Energy",
@@ -233,12 +233,12 @@
         },
         {
           "name": "Polyethylene",
-          "price": 1300.0,
-          "raw_price": 1300.02,
+          "price": 1305.0,
+          "raw_price": 1304.79,
           "unit": "USD/T",
           "color": "#4fc3f7",
-          "change_1d": 0.0,
-          "change_1w": -0.6,
+          "change_1d": 0.4,
+          "change_1w": -0.3,
           "trend": "\u2198",
           "history": [
             1240.28,
@@ -270,7 +270,7 @@
             1304.79,
             1300.02,
             1300.02,
-            1300.02
+            1304.79
           ],
           "labels": [
             "20/09",
