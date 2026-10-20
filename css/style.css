@@ -87,3 +87,14 @@ body {
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 .error-state { text-align: center; padding: 40px 20px; color: var(--red); }
+/* Stale-series badge: price has not actually moved in N days (upstream
+   assessment republished with a fresh date). See export STALE_DAYS. */
+.stale-badge {
+    display: inline-block; margin-left: 8px; padding: 1px 7px;
+    border-radius: 9px; font-size: 10px; font-weight: 600;
+    letter-spacing: 0.3px; text-transform: none;
+    background: rgba(255, 167, 38, 0.14); color: #ffa726;
+    border: 1px solid rgba(255, 167, 38, 0.35);
+    vertical-align: middle; cursor: help;
+}
+.summary-card .stale-badge { margin-left: 0; margin-top: 6px; }

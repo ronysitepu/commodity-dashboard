@@ -28,7 +28,8 @@
       buildPanels(data.sectors);
       activateTab(data.sectors[0].name);
       var info = document.getElementById('header-info');
-      if (info) info.textContent = data.total_commodities + ' commodities \u00b7 Updated ' + data.updated_label;
+      if (info) info.textContent = data.total_commodities + ' commodities \u00b7 Updated ' + data.updated_label +
+        (data.stale_count ? ' \u00b7 ' + data.stale_count + ' stale' : '');
     } catch(e) {
       showError('Failed: ' + e.message);
     }
@@ -67,6 +68,14 @@
     });
   }
 
+  function staleBadge(c) {
+    if (!c.stale) return '';
+    var d = c.last_change ? c.last_change.slice(5).replace('-', '/') : '';
+    return '<span class="stale-badge" title="Price has not moved in ' + c.flat_days +
+      ' days (last change ' + (c.last_change || 'n/a') + '). Source may be republishing a stale assessment.">' +
+      'flat ' + c.flat_days + 'd' + (d ? ' · ' + d : '') + '</span>';
+  }
+
   function buildPanelHTML(sector) {
     var commodities = sector.commodities || [];
 
@@ -75,7 +84,7 @@
     commodities.forEach(function(c) {
       var cls = c.change_1d !== null ? (c.change_1d >= 0 ? 'pos' : 'neg') : 'flat';
       var chg = c.change_1d !== null ? fmtPct(c.change_1d) : '\u2014';
-      cards += '<div class="summary-card"><div class="commodity-name">' + c.name + '</div><div class="commodity-price" style="color:' + c.color + '">' + fmtPrice(c.price) + '</div><div class="commodity-change ' + cls + '">' + chg + '</div><div class="commodity-unit">' + c.unit + '</div></div>';
+      cards += '<div class="summary-card"><div class="commodity-name">' + c.name + '</div><div class="commodity-price" style="color:' + c.color + '">' + fmtPrice(c.price) + '</div><div class="commodity-change ' + cls + '">' + chg + '</div><div class="commodity-unit">' + c.unit + '</div>' + staleBadge(c) + '</div>';
     });
 
     // Price table rows
@@ -85,7 +94,7 @@
       var d7 = c.change_1w !== null ? fmtPct(c.change_1w) : '\u2014';
       var d1c = c.change_1d !== null ? (c.change_1d >= 0 ? 'pos' : 'neg') : 'flat';
       var d7c = c.change_1w !== null ? (c.change_1w >= 0 ? 'pos' : 'neg') : 'flat';
-      rows += '<tr><td class="name"><span class="color-dot" style="background:' + c.color + '"></span>' + c.name + '</td><td class="price-cell">' + fmtPrice(c.price) + '</td><td class="unit-cell">' + c.unit + '</td><td class="chg ' + d1c + '">' + d1 + '</td><td class="chg ' + d7c + '">' + d7 + '</td><td class="trend-cell">' + c.trend + '</td><td class="dots-cell">' + c.data_points + '</td></tr>';
+      rows += '<tr><td class="name"><span class="color-dot" style="background:' + c.color + '"></span>' + c.name + staleBadge(c) + '</td><td class="price-cell">' + fmtPrice(c.price) + '</td><td class="unit-cell">' + c.unit + '</td><td class="chg ' + d1c + '">' + d1 + '</td><td class="chg ' + d7c + '">' + d7 + '</td><td class="trend-cell">' + c.trend + '</td><td class="dots-cell">' + c.data_points + '</td></tr>';
     });
 
     return '<div class="summary-row">' + cards + '</div><div class="chart-grid"></div><div class="table-section"><h3>\ud83d\udccb Price Overview</h3><table class="price-table"><thead><tr><th>Commodity</th><th>Price</th><th>Unit</th><th>1D \u0394</th><th>1W \u0394</th><th>Trend</th><th>Data Pts</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
