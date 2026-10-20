@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-20T01:00:02Z",
-  "updated_label": "20 Oct 2026 01:00 UTC",
+  "updated": "2026-10-20T01:43:00Z",
+  "updated_label": "20 Oct 2026 01:43 UTC",
   "sectors": [
     {
       "name": "Energy",
@@ -15,6 +15,9 @@
           "change_1d": 0.2,
           "change_1w": 0.9,
           "trend": "\u2192",
+          "flat_days": 0,
+          "last_change": "2026-10-20",
+          "stale": false,
           "history": [
             144.0,
             144.0,
@@ -83,13 +86,16 @@
         },
         {
           "name": "Brent",
-          "price": 109.5,
-          "raw_price": 109.505,
+          "price": 109.9,
+          "raw_price": 109.884,
           "unit": "USD/Bbl",
           "color": "#ef5350",
-          "change_1d": 1.3,
-          "change_1w": 4.3,
+          "change_1d": 1.6,
+          "change_1w": 4.7,
           "trend": "\u2197",
+          "flat_days": 0,
+          "last_change": "2026-10-20",
+          "stale": false,
           "history": [
             100.33999633789062,
             99.25,
@@ -120,7 +126,7 @@
             109.86,
             109.86,
             108.11,
-            109.505
+            109.884
           ],
           "labels": [
             "21/09",
@@ -158,13 +164,16 @@
         },
         {
           "name": "Coal/Gold",
-          "price": 3.63,
-          "raw_price": 3.63,
+          "price": 3.64,
+          "raw_price": 3.64,
           "unit": "\u00d7100",
           "color": "#78909c",
-          "change_1d": 1.1,
-          "change_1w": 2.3,
+          "change_1d": 1.4,
+          "change_1w": 2.5,
           "trend": "\u2192",
+          "flat_days": 0,
+          "last_change": "2026-10-20",
+          "stale": false,
           "history": [
             3.29,
             3.29,
@@ -195,7 +204,7 @@
             3.6,
             3.6,
             3.59,
-            3.63
+            3.64
           ],
           "labels": [
             "21/09",
@@ -240,6 +249,9 @@
           "change_1d": 0.0,
           "change_1w": -2.7,
           "trend": "\u2198",
+          "flat_days": 0,
+          "last_change": "2026-10-19",
+          "stale": false,
           "history": [
             1240.28,
             1240.28,
@@ -315,6 +327,9 @@
           "change_1d": 0.0,
           "change_1w": -0.3,
           "trend": "\u2192",
+          "flat_days": 0,
+          "last_change": "2026-10-19",
+          "stale": false,
           "history": [
             1298.83,
             1273.95,
@@ -406,6 +421,9 @@
           "change_1d": 0.3,
           "change_1w": 15.0,
           "trend": "\u2197",
+          "flat_days": 0,
+          "last_change": "2026-10-20",
+          "stale": false,
           "history": [
             27.51,
             27.51,
@@ -481,6 +499,9 @@
           "change_1d": -0.4,
           "change_1w": 3.5,
           "trend": "\u2197",
+          "flat_days": 0,
+          "last_change": "2026-10-20",
+          "stale": false,
           "history": [
             460.25,
             460.25,
@@ -556,6 +577,9 @@
           "change_1d": 0.0,
           "change_1w": 0.0,
           "trend": "\u2192",
+          "flat_days": 9,
+          "last_change": "2026-10-10",
+          "stale": true,
           "history": [
             802.5,
             802.5,
@@ -631,6 +655,9 @@
           "change_1d": 1.4,
           "change_1w": 3.5,
           "trend": "\u2197",
+          "flat_days": 0,
+          "last_change": "2026-10-20",
+          "stale": false,
           "history": [
             488.1,
             488.4,
@@ -706,6 +733,9 @@
           "change_1d": 1.6,
           "change_1w": 6.5,
           "trend": "\u2197",
+          "flat_days": 0,
+          "last_change": "2026-10-20",
+          "stale": false,
           "history": [
             431.6,
             432.0,
@@ -790,13 +820,16 @@
       "commodities": [
         {
           "name": "Gold",
-          "price": 4152.0,
-          "raw_price": 4152.0,
+          "price": 4142.0,
+          "raw_price": 4141.89990234375,
           "unit": "USD/oz",
           "color": "#ffd54f",
-          "change_1d": -0.8,
-          "change_1w": -1.3,
+          "change_1d": -1.0,
+          "change_1w": -1.5,
           "trend": "\u2192",
+          "flat_days": 0,
+          "last_change": "2026-10-20",
+          "stale": false,
           "history": [
             4383.89990234375,
             4376.39990234375,
@@ -827,7 +860,7 @@
             4181.10009765625,
             4181.10009765625,
             4183.60009765625,
-            4152.0
+            4141.89990234375
           ],
           "labels": [
             "21/09",
@@ -865,13 +898,16 @@
         },
         {
           "name": "Copper",
-          "price": 6.56,
-          "raw_price": 6.558000087738037,
+          "price": 6.54,
+          "raw_price": 6.539000034332275,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": 0.1,
-          "change_1w": -2.7,
+          "change_1d": -0.2,
+          "change_1w": -3.0,
           "trend": "\u2198",
+          "flat_days": 0,
+          "last_change": "2026-10-20",
+          "stale": false,
           "history": [
             6.686500072479248,
             6.759500026702881,
@@ -902,7 +938,7 @@
             6.531000137329102,
             6.573500156402588,
             6.552499771118164,
-            6.558000087738037
+            6.539000034332275
           ],
           "labels": [
             "21/09",
@@ -947,6 +983,9 @@
           "change_1d": 0.6,
           "change_1w": -1.3,
           "trend": "\u2198",
+          "flat_days": 0,
+          "last_change": "2026-10-20",
+          "stale": false,
           "history": [
             1.53,
             1.54,
@@ -1029,6 +1068,9 @@
           "change_1d": 0.0,
           "change_1w": 0.2,
           "trend": "\u2192",
+          "flat_days": 2,
+          "last_change": "2026-10-17",
+          "stale": false,
           "history": [
             1206.5,
             1206.5,
@@ -1099,5 +1141,9 @@
       "chart_groups": []
     }
   ],
-  "total_commodities": 14
+  "total_commodities": 14,
+  "stale_series": [
+    "DAP"
+  ],
+  "stale_count": 1
 }
