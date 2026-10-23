@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-22T21:01:01Z",
-  "updated_label": "22 Oct 2026 21:01 UTC",
+  "updated": "2026-10-23T01:00:48Z",
+  "updated_label": "23 Oct 2026 01:00 UTC",
   "sectors": [
     {
       "name": "Energy",
@@ -8,15 +8,15 @@
       "commodities": [
         {
           "name": "Coal",
-          "price": 150.6,
-          "raw_price": 150.55,
+          "price": 151.2,
+          "raw_price": 151.15,
           "unit": "USD/T",
           "color": "#ff6b6b",
-          "change_1d": 0.0,
-          "change_1w": 0.6,
+          "change_1d": 0.4,
+          "change_1w": 1.0,
           "trend": "\u2192",
           "flat_days": 0,
-          "last_change": "2026-10-22",
+          "last_change": "2026-10-23",
           "stale": false,
           "history": [
             145.4,
@@ -48,7 +48,7 @@
             150.7,
             150.65,
             150.55,
-            150.55
+            151.15
           ],
           "labels": [
             "24/09",
@@ -86,12 +86,12 @@
         },
         {
           "name": "Brent",
-          "price": 112.8,
-          "raw_price": 112.812,
+          "price": 113.0,
+          "raw_price": 113.001,
           "unit": "USD/Bbl",
           "color": "#ef5350",
-          "change_1d": 0.6,
-          "change_1w": 6.5,
+          "change_1d": 0.8,
+          "change_1w": 6.7,
           "trend": "\u2197",
           "flat_days": 0,
           "last_change": "2026-10-23",
@@ -126,7 +126,7 @@
             110.504,
             108.116,
             112.152,
-            112.812
+            113.001
           ],
           "labels": [
             "24/09",
@@ -164,12 +164,12 @@
         },
         {
           "name": "Coal/Gold",
-          "price": 3.73,
-          "raw_price": 3.73,
+          "price": 3.74,
+          "raw_price": 3.74,
           "unit": "\u00d7100",
           "color": "#78909c",
-          "change_1d": 1.6,
-          "change_1w": 4.5,
+          "change_1d": 1.9,
+          "change_1w": 4.8,
           "trend": "\u2197",
           "flat_days": 0,
           "last_change": "2026-10-23",
@@ -204,7 +204,7 @@
             3.64,
             3.63,
             3.67,
-            3.73
+            3.74
           ],
           "labels": [
             "24/09",
@@ -242,12 +242,12 @@
         },
         {
           "name": "Polyethylene",
-          "price": 1288.0,
-          "raw_price": 1288.25,
+          "price": 1297.0,
+          "raw_price": 1297.2,
           "unit": "USD/T",
           "color": "#4fc3f7",
-          "change_1d": -0.0,
-          "change_1w": -1.3,
+          "change_1d": 0.7,
+          "change_1w": -0.6,
           "trend": "\u2192",
           "flat_days": 0,
           "last_change": "2026-10-23",
@@ -282,7 +282,7 @@
             1291.98,
             1281.55,
             1288.55,
-            1288.25
+            1297.2
           ],
           "labels": [
             "24/09",
@@ -320,15 +320,15 @@
         },
         {
           "name": "PP",
-          "price": 1381.0,
-          "raw_price": 1380.93,
+          "price": 1390.0,
+          "raw_price": 1389.9,
           "unit": "USD/T",
           "color": "#ba68c8",
-          "change_1d": 0.0,
-          "change_1w": -1.2,
+          "change_1d": 0.6,
+          "change_1w": -0.6,
           "trend": "\u2198",
           "flat_days": 0,
-          "last_change": "2026-10-22",
+          "last_change": "2026-10-23",
           "stale": false,
           "history": [
             1252.05,
@@ -360,7 +360,7 @@
             1382.42,
             1390.32,
             1380.93,
-            1380.93
+            1389.9
           ],
           "labels": [
             "24/09",
@@ -414,15 +414,15 @@
       "commodities": [
         {
           "name": "LNG JKM",
-          "price": 30.06,
-          "raw_price": 30.06,
+          "price": 30.63,
+          "raw_price": 30.63,
           "unit": "USD/MMBTU",
           "color": "#ffa726",
-          "change_1d": 0.0,
-          "change_1w": 13.3,
-          "trend": "\u2192",
+          "change_1d": 1.9,
+          "change_1w": 15.5,
+          "trend": "\u2197",
           "flat_days": 0,
-          "last_change": "2026-10-22",
+          "last_change": "2026-10-23",
           "stale": false,
           "history": [
             26.05,
@@ -454,7 +454,7 @@
             30.01,
             29.55,
             30.06,
-            30.06
+            30.63
           ],
           "labels": [
             "24/09",
@@ -492,15 +492,15 @@
         },
         {
           "name": "Urea",
-          "price": 444.0,
-          "raw_price": 444.0,
+          "price": 442.5,
+          "raw_price": 442.5,
           "unit": "USD/T",
           "color": "#66bb6a",
-          "change_1d": 0.0,
-          "change_1w": -3.8,
+          "change_1d": -0.3,
+          "change_1w": -4.1,
           "trend": "\u2198",
           "flat_days": 0,
-          "last_change": "2026-10-22",
+          "last_change": "2026-10-23",
           "stale": false,
           "history": [
             459.0,
@@ -532,7 +532,7 @@
             455.5,
             446.5,
             444.0,
-            444.0
+            442.5
           ],
           "labels": [
             "24/09",
@@ -820,12 +820,12 @@
       "commodities": [
         {
           "name": "Gold",
-          "price": 4038.0,
-          "raw_price": 4038.300048828125,
+          "price": 4041.0,
+          "raw_price": 4041.300048828125,
           "unit": "USD/oz",
           "color": "#ffd54f",
           "change_1d": -1.6,
-          "change_1w": -3.8,
+          "change_1w": -3.7,
           "trend": "\u2198",
           "flat_days": 0,
           "last_change": "2026-10-23",
@@ -860,7 +860,7 @@
             4139.39990234375,
             4145.2001953125,
             4105.0,
-            4038.300048828125
+            4041.300048828125
           ],
           "labels": [
             "24/09",
@@ -899,11 +899,11 @@
         {
           "name": "Copper",
           "price": 6.4,
-          "raw_price": 6.397500038146973,
+          "raw_price": 6.4019999504089355,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": -0.3,
-          "change_1w": -3.5,
+          "change_1d": -0.2,
+          "change_1w": -3.4,
           "trend": "\u2198",
           "flat_days": 0,
           "last_change": "2026-10-23",
@@ -938,7 +938,7 @@
             6.583000183105469,
             6.546500205993652,
             6.414000034332275,
-            6.397500038146973
+            6.4019999504089355
           ],
           "labels": [
             "24/09",
