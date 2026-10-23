@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23T05:00:48Z",
-  "updated_label": "23 Oct 2026 05:00 UTC",
+  "updated": "2026-10-23T09:00:47Z",
+  "updated_label": "23 Oct 2026 09:00 UTC",
   "sectors": [
     {
       "name": "Energy",
@@ -86,12 +86,12 @@
         },
         {
           "name": "Brent",
-          "price": 113.9,
-          "raw_price": 113.942,
+          "price": 113.6,
+          "raw_price": 113.6,
           "unit": "USD/Bbl",
           "color": "#ef5350",
-          "change_1d": 1.6,
-          "change_1w": 7.6,
+          "change_1d": 1.3,
+          "change_1w": 7.3,
           "trend": "\u2197",
           "flat_days": 0,
           "last_change": "2026-10-23",
@@ -126,7 +126,7 @@
             110.504,
             108.116,
             112.152,
-            113.942
+            113.6
           ],
           "labels": [
             "24/09",
@@ -164,12 +164,12 @@
         },
         {
           "name": "Coal/Gold",
-          "price": 3.76,
-          "raw_price": 3.76,
+          "price": 3.74,
+          "raw_price": 3.74,
           "unit": "\u00d7100",
           "color": "#78909c",
-          "change_1d": 2.5,
-          "change_1w": 5.3,
+          "change_1d": 1.9,
+          "change_1w": 4.8,
           "trend": "\u2197",
           "flat_days": 0,
           "last_change": "2026-10-23",
@@ -204,7 +204,7 @@
             3.64,
             3.63,
             3.67,
-            3.76
+            3.74
           ],
           "labels": [
             "24/09",
@@ -242,12 +242,12 @@
         },
         {
           "name": "Polyethylene",
-          "price": 1297.0,
-          "raw_price": 1297.2,
+          "price": 1312.0,
+          "raw_price": 1311.75,
           "unit": "USD/T",
           "color": "#4fc3f7",
-          "change_1d": 0.7,
-          "change_1w": -0.6,
+          "change_1d": 1.8,
+          "change_1w": 0.5,
           "trend": "\u2192",
           "flat_days": 0,
           "last_change": "2026-10-23",
@@ -282,7 +282,7 @@
             1291.98,
             1281.55,
             1288.55,
-            1297.2
+            1311.75
           ],
           "labels": [
             "24/09",
@@ -320,13 +320,13 @@
         },
         {
           "name": "PP",
-          "price": 1390.0,
-          "raw_price": 1389.9,
+          "price": 1413.0,
+          "raw_price": 1413.3,
           "unit": "USD/T",
           "color": "#ba68c8",
-          "change_1d": 0.6,
-          "change_1w": -0.6,
-          "trend": "\u2198",
+          "change_1d": 2.3,
+          "change_1w": 1.1,
+          "trend": "\u2192",
           "flat_days": 0,
           "last_change": "2026-10-23",
           "stale": false,
@@ -360,7 +360,7 @@
             1382.42,
             1390.32,
             1380.93,
-            1389.9
+            1413.3
           ],
           "labels": [
             "24/09",
@@ -820,12 +820,12 @@
       "commodities": [
         {
           "name": "Gold",
-          "price": 4018.0,
-          "raw_price": 4017.89990234375,
+          "price": 4039.0,
+          "raw_price": 4039.300048828125,
           "unit": "USD/oz",
           "color": "#ffd54f",
-          "change_1d": -2.1,
-          "change_1w": -4.3,
+          "change_1d": -1.6,
+          "change_1w": -3.8,
           "trend": "\u2198",
           "flat_days": 0,
           "last_change": "2026-10-23",
@@ -860,7 +860,7 @@
             4139.39990234375,
             4145.2001953125,
             4105.0,
-            4017.89990234375
+            4039.300048828125
           ],
           "labels": [
             "24/09",
@@ -898,12 +898,12 @@
         },
         {
           "name": "Copper",
-          "price": 6.42,
-          "raw_price": 6.423500061035156,
+          "price": 6.46,
+          "raw_price": 6.455999851226807,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": 0.1,
-          "change_1w": -3.1,
+          "change_1d": 0.7,
+          "change_1w": -2.6,
           "trend": "\u2198",
           "flat_days": 0,
           "last_change": "2026-10-23",
@@ -938,7 +938,7 @@
             6.583000183105469,
             6.546500205993652,
             6.414000034332275,
-            6.423500061035156
+            6.455999851226807
           ],
           "labels": [
             "24/09",
