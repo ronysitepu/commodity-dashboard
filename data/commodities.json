@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25T01:00:09Z",
-  "updated_label": "25 Oct 2026 01:00 UTC",
+  "updated": "2026-10-25T05:00:10Z",
+  "updated_label": "25 Oct 2026 05:00 UTC",
   "sectors": [
     {
       "name": "Energy",
@@ -898,15 +898,15 @@
         },
         {
           "name": "Copper",
-          "price": 6.48,
-          "raw_price": 6.47599983215332,
+          "price": 6.51,
+          "raw_price": 6.507500171661377,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": 0.0,
-          "change_1w": -1.5,
+          "change_1d": 0.5,
+          "change_1w": -1.0,
           "trend": "\u2198",
           "flat_days": 0,
-          "last_change": "2026-10-24",
+          "last_change": "2026-10-25",
           "stale": false,
           "history": [
             6.7789998054504395,
@@ -938,7 +938,7 @@
             6.414000034332275,
             6.473499774932861,
             6.47599983215332,
-            6.47599983215332
+            6.507500171661377
           ],
           "labels": [
             "26/09",
