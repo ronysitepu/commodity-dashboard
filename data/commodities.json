@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25T09:00:09Z",
-  "updated_label": "25 Oct 2026 09:00 UTC",
+  "updated": "2026-10-25T13:00:09Z",
+  "updated_label": "25 Oct 2026 13:00 UTC",
   "sectors": [
     {
       "name": "Energy",
@@ -15,7 +15,7 @@
           "change_1d": 0.0,
           "change_1w": 0.2,
           "trend": "\u2192",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-10-24",
           "stale": false,
           "history": [
@@ -93,7 +93,7 @@
           "change_1d": 0.0,
           "change_1w": 6.2,
           "trend": "\u2197",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-10-24",
           "stale": false,
           "history": [
@@ -171,7 +171,7 @@
           "change_1d": 0.0,
           "change_1w": 4.4,
           "trend": "\u2197",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-10-24",
           "stale": false,
           "history": [
@@ -421,7 +421,7 @@
           "change_1d": 0.0,
           "change_1w": 5.0,
           "trend": "\u2197",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-10-24",
           "stale": false,
           "history": [
@@ -499,7 +499,7 @@
           "change_1d": 0.0,
           "change_1w": -1.0,
           "trend": "\u2192",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-10-24",
           "stale": false,
           "history": [
@@ -655,7 +655,7 @@
           "change_1d": 0.0,
           "change_1w": 1.3,
           "trend": "\u2192",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-10-24",
           "stale": false,
           "history": [
@@ -733,7 +733,7 @@
           "change_1d": 0.0,
           "change_1w": 2.4,
           "trend": "\u2197",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-10-24",
           "stale": false,
           "history": [
@@ -827,7 +827,7 @@
           "change_1d": 0.0,
           "change_1w": -4.1,
           "trend": "\u2198",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-10-24",
           "stale": false,
           "history": [
@@ -983,7 +983,7 @@
           "change_1d": 0.0,
           "change_1w": 3.2,
           "trend": "\u2197",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-10-24",
           "stale": false,
           "history": [
@@ -1068,7 +1068,7 @@
           "change_1d": 0.0,
           "change_1w": 0.4,
           "trend": "\u2192",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-10-24",
           "stale": false,
           "history": [
