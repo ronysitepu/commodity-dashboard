@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-26T05:00:10Z",
-  "updated_label": "26 Oct 2026 05:00 UTC",
+  "updated": "2026-10-26T09:00:09Z",
+  "updated_label": "26 Oct 2026 09:00 UTC",
   "sectors": [
     {
       "name": "Energy",
@@ -86,12 +86,12 @@
         },
         {
           "name": "Brent",
-          "price": 114.4,
-          "raw_price": 114.373,
+          "price": 114.7,
+          "raw_price": 114.723,
           "unit": "USD/Bbl",
           "color": "#ef5350",
-          "change_1d": -2.0,
-          "change_1w": 5.8,
+          "change_1d": -1.7,
+          "change_1w": 6.1,
           "trend": "\u2197",
           "flat_days": 0,
           "last_change": "2026-10-26",
@@ -126,7 +126,7 @@
             114.781,
             116.72,
             116.72,
-            114.373
+            114.723
           ],
           "labels": [
             "27/09",
@@ -820,12 +820,12 @@
       "commodities": [
         {
           "name": "Gold",
-          "price": 4026.0,
-          "raw_price": 4025.5,
+          "price": 4032.0,
+          "raw_price": 4032.10009765625,
           "unit": "USD/oz",
           "color": "#ffd54f",
-          "change_1d": 0.4,
-          "change_1w": -3.8,
+          "change_1d": 0.6,
+          "change_1w": -3.6,
           "trend": "\u2198",
           "flat_days": 0,
           "last_change": "2026-10-26",
@@ -860,7 +860,7 @@
             4043.5,
             4007.89990234375,
             4007.89990234375,
-            4025.5
+            4032.10009765625
           ],
           "labels": [
             "27/09",
@@ -898,13 +898,13 @@
         },
         {
           "name": "Copper",
-          "price": 6.48,
-          "raw_price": 6.483500003814697,
+          "price": 6.51,
+          "raw_price": 6.513999938964844,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": -0.4,
-          "change_1w": -1.1,
-          "trend": "\u2198",
+          "change_1d": 0.1,
+          "change_1w": -0.6,
+          "trend": "\u2192",
           "flat_days": 0,
           "last_change": "2026-10-26",
           "stale": false,
@@ -938,7 +938,7 @@
             6.473499774932861,
             6.47599983215332,
             6.507500171661377,
-            6.483500003814697
+            6.513999938964844
           ],
           "labels": [
             "27/09",
