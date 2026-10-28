@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-28T01:00:15Z",
-  "updated_label": "28 Oct 2026 01:00 UTC",
+  "updated": "2026-10-28T05:00:16Z",
+  "updated_label": "28 Oct 2026 05:00 UTC",
   "sectors": [
     {
       "name": "Energy",
@@ -86,12 +86,12 @@
         },
         {
           "name": "Brent",
-          "price": 114.3,
-          "raw_price": 114.308,
+          "price": 115.5,
+          "raw_price": 115.5,
           "unit": "USD/Bbl",
           "color": "#ef5350",
-          "change_1d": -0.6,
-          "change_1w": 5.7,
+          "change_1d": 0.5,
+          "change_1w": 6.8,
           "trend": "\u2197",
           "flat_days": 0,
           "last_change": "2026-10-28",
@@ -126,7 +126,7 @@
             116.72,
             115.272,
             114.945,
-            114.308
+            115.5
           ],
           "labels": [
             "29/09",
@@ -164,12 +164,12 @@
         },
         {
           "name": "Coal/Gold",
-          "price": 3.68,
-          "raw_price": 3.68,
+          "price": 3.7,
+          "raw_price": 3.7,
           "unit": "\u00d7100",
           "color": "#78909c",
-          "change_1d": -0.8,
-          "change_1w": 1.4,
+          "change_1d": -0.3,
+          "change_1w": 1.9,
           "trend": "\u2192",
           "flat_days": 0,
           "last_change": "2026-10-28",
@@ -204,7 +204,7 @@
             3.76,
             3.74,
             3.71,
-            3.68
+            3.7
           ],
           "labels": [
             "29/09",
@@ -820,12 +820,12 @@
       "commodities": [
         {
           "name": "Gold",
-          "price": 4076.0,
-          "raw_price": 4076.5,
+          "price": 4053.0,
+          "raw_price": 4053.10009765625,
           "unit": "USD/oz",
           "color": "#ffd54f",
-          "change_1d": 1.0,
-          "change_1w": -1.7,
+          "change_1d": 0.4,
+          "change_1w": -2.2,
           "trend": "\u2192",
           "flat_days": 0,
           "last_change": "2026-10-28",
@@ -860,7 +860,7 @@
             4007.89990234375,
             4034.60009765625,
             4037.699951171875,
-            4076.5
+            4053.10009765625
           ],
           "labels": [
             "29/09",
@@ -898,12 +898,12 @@
         },
         {
           "name": "Copper",
-          "price": 6.66,
-          "raw_price": 6.663000106811523,
+          "price": 6.64,
+          "raw_price": 6.643499851226807,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": 0.8,
-          "change_1w": 1.8,
+          "change_1d": 0.6,
+          "change_1w": 1.5,
           "trend": "\u2197",
           "flat_days": 0,
           "last_change": "2026-10-28",
@@ -938,7 +938,7 @@
             6.507500171661377,
             6.520999908447266,
             6.60699987411499,
-            6.663000106811523
+            6.643499851226807
           ],
           "labels": [
             "29/09",
@@ -1061,15 +1061,15 @@
       "commodities": [
         {
           "name": "CPO",
-          "price": 1150.0,
-          "raw_price": 1149.75,
+          "price": 1146.0,
+          "raw_price": 1145.75,
           "unit": "USD/T",
           "color": "#8d6e63",
-          "change_1d": 0.0,
-          "change_1w": 0.2,
+          "change_1d": -0.3,
+          "change_1w": -0.1,
           "trend": "\u2192",
           "flat_days": 0,
-          "last_change": "2026-10-27",
+          "last_change": "2026-10-28",
           "stale": false,
           "history": [
             1192.5,
@@ -1101,7 +1101,7 @@
             1151.5,
             1151.5,
             1149.75,
-            1149.75
+            1145.75
           ],
           "labels": [
             "29/09",
