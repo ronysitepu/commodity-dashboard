@@ -32,7 +32,13 @@ body {
 }
 .header h1 { font-size: 20px; font-weight: 700; display: flex; align-items: center; gap: 10px; }
 .header h1 span { color: var(--accent); }
-.header .updated { font-size: 12px; color: var(--text-muted); }
+.header .updated { font-size: 12px; color: var(--text-muted); display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.range-pill {
+    display: inline-block; padding: 2px 9px; border-radius: 9px;
+    font-size: 11px; font-weight: 600; color: #4fc3f7;
+    background: rgba(79, 195, 247, 0.12);
+    border: 1px solid rgba(79, 195, 247, 0.35);
+}
 .tab-bar {
     display: flex; gap: 4px; padding: 12px 24px;
     max-width: 1400px; margin: 0 auto; overflow-x: auto;
@@ -58,6 +64,10 @@ body {
 .summary-card .commodity-change.pos { color: var(--green); }
 .summary-card .commodity-change.neg { color: var(--red); }
 .summary-card .commodity-unit { font-size: 10px; color: var(--text-muted); }
+.summary-card .commodity-ytd { font-size: 10px; font-weight: 600; margin-top: 2px; letter-spacing: 0.2px; }
+.summary-card .commodity-ytd.pos { color: var(--green); }
+.summary-card .commodity-ytd.neg { color: var(--red); }
+.summary-card .commodity-ytd.flat { color: var(--text-muted); font-weight: 500; }
 .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
 @media (max-width: 900px) { .chart-grid { grid-template-columns: 1fr; } }
 .chart-card { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
@@ -78,6 +88,14 @@ body {
 .price-table .trend-cell { font-size: 16px; text-align: center; }
 .price-table .dots-cell { font-size: 11px; color: var(--text-muted); }
 .price-table .color-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+/* Small source/frequency note next to a chart title. */
+.src-note {
+    display: inline-block; margin-left: 6px; padding: 1px 6px;
+    border-radius: 8px; font-size: 10px; font-weight: 500;
+    color: var(--text-muted); background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    cursor: help; vertical-align: middle;
+}
 .footer { text-align: center; padding: 24px; color: var(--text-muted); font-size: 12px; border-top: 1px solid var(--border); }
 .loading { text-align: center; padding: 60px 20px; color: var(--text-muted); }
 .loading .spinner {

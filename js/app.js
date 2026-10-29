@@ -14,6 +14,10 @@
     if (v === null || v === undefined) return '\u2014';
     return (v > 0 ? '+' : '') + v.toFixed(1) + '%';
   }
+  function pctClass(v) {
+    if (v === null || v === undefined) return 'flat';
+    return v >= 0 ? 'pos' : 'neg';
+  }
 
   async function init() {
     showLoading();
@@ -28,8 +32,13 @@
       buildPanels(data.sectors);
       activateTab(data.sectors[0].name);
       var info = document.getElementById('header-info');
-      if (info) info.textContent = data.total_commodities + ' commodities \u00b7 Updated ' + data.updated_label +
-        (data.stale_count ? ' \u00b7 ' + data.stale_count + ' stale' : '');
+      if (info) {
+        var rng = data.range || {};
+        info.innerHTML = '<span class="range-pill" title="' + (rng.note || '') + '">' +
+          (rng.note || rng.label || '') + '</span>' +
+          '<span>' + data.total_commodities + ' commodities \u00b7 Updated ' + data.updated_label +
+          (data.stale_count ? ' \u00b7 ' + data.stale_count + ' stale' : '') + '</span>';
+      }
     } catch(e) {
       showError('Failed: ' + e.message);
     }
@@ -73,31 +82,42 @@
     var d = c.last_change ? c.last_change.slice(5).replace('-', '/') : '';
     return '<span class="stale-badge" title="Price has not moved in ' + c.flat_days +
       ' days (last change ' + (c.last_change || 'n/a') + '). Source may be republishing a stale assessment.">' +
-      'flat ' + c.flat_days + 'd' + (d ? ' · ' + d : '') + '</span>';
+      'flat ' + c.flat_days + 'd' + (d ? ' \u00b7 ' + d : '') + '</span>';
   }
 
   function buildPanelHTML(sector) {
     var commodities = sector.commodities || [];
+    var rng = data.range || {};
+    var ytdLabel = rng.label || 'YTD';
 
     // Summary cards
     var cards = '';
     commodities.forEach(function(c) {
-      var cls = c.change_1d !== null ? (c.change_1d >= 0 ? 'pos' : 'neg') : 'flat';
       var chg = c.change_1d !== null ? fmtPct(c.change_1d) : '\u2014';
-      cards += '<div class="summary-card"><div class="commodity-name">' + c.name + '</div><div class="commodity-price" style="color:' + c.color + '">' + fmtPrice(c.price) + '</div><div class="commodity-change ' + cls + '">' + chg + '</div><div class="commodity-unit">' + c.unit + '</div>' + staleBadge(c) + '</div>';
+      var ytd = c.change_ytd !== null && c.change_ytd !== undefined
+        ? '<div class="commodity-ytd ' + pctClass(c.change_ytd) + '">' + ytdLabel + ' ' + fmtPct(c.change_ytd) + '</div>'
+        : '<div class="commodity-ytd flat">no ' + ytdLabel + '</div>';
+      cards += '<div class="summary-card"><div class="commodity-name">' + c.name + '</div><div class="commodity-price" style="color:' + c.color + '">' + fmtPrice(c.price) + '</div><div class="commodity-change ' + pctClass(c.change_1d) + '">' + chg + ' 1D</div><div class="commodity-unit">' + c.unit + '</div>' + ytd + staleBadge(c) + '</div>';
     });
 
-    // Price table rows
+    // Price table rows — YTD column is blank where the series has no
+    // January print (never a mislabelled "since September" number).
     var rows = '';
     commodities.forEach(function(c) {
-      var d1 = c.change_1d !== null ? fmtPct(c.change_1d) : '\u2014';
-      var d7 = c.change_1w !== null ? fmtPct(c.change_1w) : '\u2014';
-      var d1c = c.change_1d !== null ? (c.change_1d >= 0 ? 'pos' : 'neg') : 'flat';
-      var d7c = c.change_1w !== null ? (c.change_1w >= 0 ? 'pos' : 'neg') : 'flat';
-      rows += '<tr><td class="name"><span class="color-dot" style="background:' + c.color + '"></span>' + c.name + staleBadge(c) + '</td><td class="price-cell">' + fmtPrice(c.price) + '</td><td class="unit-cell">' + c.unit + '</td><td class="chg ' + d1c + '">' + d1 + '</td><td class="chg ' + d7c + '">' + d7 + '</td><td class="trend-cell">' + c.trend + '</td><td class="dots-cell">' + c.data_points + '</td></tr>';
+      var d1 = fmtPct(c.change_1d);
+      var d7 = fmtPct(c.change_1w);
+      var dy = (c.change_ytd === null || c.change_ytd === undefined) ? '\u2014' : fmtPct(c.change_ytd);
+      rows += '<tr><td class="name"><span class="color-dot" style="background:' + c.color + '"></span>' + c.name + staleBadge(c) + '</td>' +
+        '<td class="price-cell">' + fmtPrice(c.price) + '</td>' +
+        '<td class="unit-cell">' + c.unit + '</td>' +
+        '<td class="chg ' + pctClass(c.change_1d) + '">' + d1 + '</td>' +
+        '<td class="chg ' + pctClass(c.change_1w) + '">' + d7 + '</td>' +
+        '<td class="chg ' + pctClass(c.change_ytd) + '">' + dy + '</td>' +
+        '<td class="trend-cell">' + c.trend + '</td>' +
+        '<td class="dots-cell">' + c.data_points + '</td></tr>';
     });
 
-    return '<div class="summary-row">' + cards + '</div><div class="chart-grid"></div><div class="table-section"><h3>\ud83d\udccb Price Overview</h3><table class="price-table"><thead><tr><th>Commodity</th><th>Price</th><th>Unit</th><th>1D \u0394</th><th>1W \u0394</th><th>Trend</th><th>Data Pts</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
+    return '<div class="summary-row">' + cards + '</div><div class="chart-grid"></div><div class="table-section"><h3>\ud83d\udccb Price Overview</h3><table class="price-table"><thead><tr><th>Commodity</th><th>Price</th><th>Unit</th><th>1D \u0394</th><th>1W \u0394</th><th>' + ytdLabel + ' \u0394</th><th>Trend</th><th>Pts</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
   }
 
   function activateTab(name) {
