@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-31T09:00:36Z",
-  "updated_label": "31 Oct 2026 09:00 UTC",
+  "updated": "2026-10-31T13:00:36Z",
+  "updated_label": "31 Oct 2026 13:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 31 Oct 2026 \u00b7 2026 year to date",
@@ -2222,7 +2222,7 @@
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2197",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-10-30",
           "stale": false,
           "history": [
