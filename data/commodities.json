@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-31T17:00:36Z",
-  "updated_label": "31 Oct 2026 17:00 UTC",
+  "updated": "2026-10-31T21:00:35Z",
+  "updated_label": "31 Oct 2026 21:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 01 Nov 2026 \u00b7 2026 year to date",
@@ -1860,7 +1860,7 @@
             3.1067,
             3.1204,
             3.0815,
-            3.29,
+            3.2866,
             3.27,
             3.269,
             3.269,
@@ -2218,19 +2218,19 @@
         },
         {
           "name": "Polyethylene",
-          "price": 1424.0,
-          "raw_price": 1424.1,
+          "price": 1403.0,
+          "raw_price": 1402.8,
           "unit": "USD/T",
           "color": "#4fc3f7",
-          "change_1d": 0.0,
-          "change_1w": 8.4,
+          "change_1d": -1.5,
+          "change_1w": 6.7,
           "change_ytd": null,
           "ytd_from": "2026-09-17",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2197",
-          "flat_days": 1,
-          "last_change": "2026-10-30",
+          "flat_days": 0,
+          "last_change": "2026-11-01",
           "stale": false,
           "history": [
             null,
@@ -2537,7 +2537,7 @@
             1402.8,
             1424.1,
             1424.1,
-            1424.1
+            1402.8
           ],
           "labels": [
             "01/01",
@@ -4079,7 +4079,7 @@
             25.06,
             25.208,
             27.225,
-            27.77,
+            26.75,
             27.23,
             26.75,
             26.75,
@@ -4444,7 +4444,7 @@
           "change_1d": 0.0,
           "change_1w": -0.8,
           "change_ytd": null,
-          "ytd_from": "2026-09-17",
+          "ytd_from": "2026-09-18",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2192",
@@ -4711,7 +4711,7 @@
             null,
             null,
             null,
-            459.5,
+            null,
             460.0,
             460.0,
             460.0,
@@ -5065,7 +5065,7 @@
             "31/10",
             "01/11"
           ],
-          "data_points": 46
+          "data_points": 45
         },
         {
           "name": "DAP",
