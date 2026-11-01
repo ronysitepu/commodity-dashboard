@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-01T05:00:36Z",
-  "updated_label": "01 Nov 2026 05:00 UTC",
+  "updated": "2026-11-01T09:00:36Z",
+  "updated_label": "01 Nov 2026 09:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 01 Nov 2026 \u00b7 2026 year to date",
@@ -2225,7 +2225,7 @@
           "change_1d": -1.5,
           "change_1w": 6.7,
           "change_ytd": null,
-          "ytd_from": "2026-09-17",
+          "ytd_from": "2026-09-18",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2197",
@@ -2492,7 +2492,7 @@
             null,
             null,
             null,
-            1282.89,
+            null,
             1275.29,
             1275.29,
             1275.29,
@@ -2846,7 +2846,7 @@
             "31/10",
             "01/11"
           ],
-          "data_points": 46
+          "data_points": 45
         },
         {
           "name": "PP",
@@ -2857,7 +2857,7 @@
           "change_1d": 0.0,
           "change_1w": 10.3,
           "change_ytd": null,
-          "ytd_from": "2026-09-17",
+          "ytd_from": "2026-09-18",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2197",
@@ -3124,7 +3124,7 @@
             null,
             null,
             null,
-            1335.93,
+            null,
             1322.38,
             1322.38,
             1310.16,
@@ -3478,7 +3478,7 @@
             "31/10",
             "01/11"
           ],
-          "data_points": 46
+          "data_points": 45
         }
       ],
       "chart_groups": [
@@ -6340,7 +6340,7 @@
           "change_1d": 0.0,
           "change_1w": 7.8,
           "change_ytd": null,
-          "ytd_from": "2026-09-17",
+          "ytd_from": "2026-09-18",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2197",
@@ -6607,7 +6607,7 @@
             null,
             null,
             null,
-            428.8,
+            null,
             428.1,
             428.1,
             428.1,
@@ -6961,7 +6961,7 @@
             "31/10",
             "01/11"
           ],
-          "data_points": 46
+          "data_points": 45
         }
       ],
       "chart_groups": [
