@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-02T09:00:36Z",
-  "updated_label": "02 Nov 2026 09:00 UTC",
+  "updated": "2026-11-02T13:00:36Z",
+  "updated_label": "02 Nov 2026 13:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 02 Nov 2026 \u00b7 2026 year to date",
@@ -957,13 +957,13 @@
         },
         {
           "name": "Brent",
-          "price": 109.28,
-          "raw_price": 109.279,
+          "price": 108.76,
+          "raw_price": 108.76,
           "unit": "USD/Bbl",
           "color": "#ef5350",
-          "change_1d": -3.7,
-          "change_1w": -5.2,
-          "change_ytd": 79.9,
+          "change_1d": -4.1,
+          "change_1w": -5.6,
+          "change_ytd": 79.0,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance BZ=F",
@@ -1277,7 +1277,7 @@
             113.049,
             113.43,
             113.43,
-            109.279
+            108.76
           ],
           "labels": [
             "01/01",
@@ -2232,7 +2232,7 @@
           "change_1d": 0.0,
           "change_1w": 6.7,
           "change_ytd": null,
-          "ytd_from": "2026-09-18",
+          "ytd_from": "2026-09-22",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2197",
@@ -2500,10 +2500,10 @@
             null,
             null,
             null,
-            1275.29,
-            1275.29,
-            1275.29,
-            1275.29,
+            null,
+            null,
+            null,
+            null,
             1240.28,
             1223.44,
             1206.15,
@@ -2855,7 +2855,7 @@
             "01/11",
             "02/11"
           ],
-          "data_points": 46
+          "data_points": 42
         },
         {
           "name": "PP",
@@ -5726,7 +5726,7 @@
           "change_1d": 0.0,
           "change_1w": 4.0,
           "change_ytd": null,
-          "ytd_from": "2026-09-18",
+          "ytd_from": "2026-09-21",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2197",
@@ -5994,9 +5994,9 @@
             null,
             null,
             null,
-            486.1,
-            486.1,
-            486.1,
+            null,
+            null,
+            null,
             488.1,
             488.4,
             488.4,
@@ -6349,7 +6349,7 @@
             "01/11",
             "02/11"
           ],
-          "data_points": 46
+          "data_points": 43
         },
         {
           "name": "Ammonia ME",
@@ -6360,7 +6360,7 @@
           "change_1d": 0.0,
           "change_1w": 7.8,
           "change_ytd": null,
-          "ytd_from": "2026-09-18",
+          "ytd_from": "2026-09-21",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2197",
@@ -6628,9 +6628,9 @@
             null,
             null,
             null,
-            428.1,
-            428.1,
-            428.1,
+            null,
+            null,
+            null,
             431.6,
             432.0,
             432.0,
@@ -6983,7 +6983,7 @@
             "01/11",
             "02/11"
           ],
-          "data_points": 46
+          "data_points": 43
         }
       ],
       "chart_groups": [
@@ -7311,13 +7311,13 @@
       "commodities": [
         {
           "name": "Gold",
-          "price": 3914.0,
-          "raw_price": 3913.89990234375,
+          "price": 3911.0,
+          "raw_price": 3910.89990234375,
           "unit": "USD/oz",
           "color": "#ffd54f",
-          "change_1d": 0.4,
-          "change_1w": -3.0,
-          "change_ytd": -9.6,
+          "change_1d": 0.3,
+          "change_1w": -3.1,
+          "change_ytd": -9.7,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance GC=F",
@@ -7631,7 +7631,7 @@
             3966.10009765625,
             3898.89990234375,
             3898.89990234375,
-            3913.89990234375
+            3910.89990234375
           ],
           "labels": [
             "01/01",
@@ -7945,13 +7945,13 @@
         },
         {
           "name": "Copper",
-          "price": 6.55,
-          "raw_price": 6.549499988555908,
+          "price": 6.51,
+          "raw_price": 6.511000156402588,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": 1.0,
-          "change_1w": 0.4,
-          "change_ytd": 16.1,
+          "change_1d": 0.4,
+          "change_1w": -0.2,
+          "change_ytd": 15.4,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance HG=F",
@@ -8265,7 +8265,7 @@
             6.523499965667725,
             6.458499908447266,
             6.48199987411499,
-            6.549499988555908
+            6.511000156402588
           ],
           "labels": [
             "01/01",
