@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-07T05:00:48Z",
-  "updated_label": "07 Nov 2026 05:00 UTC",
+  "updated": "2026-11-07T09:00:48Z",
+  "updated_label": "07 Nov 2026 09:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 07 Nov 2026 \u00b7 2026 year to date",
@@ -2267,7 +2267,7 @@
           "change_1d": -3.8,
           "change_1w": -7.7,
           "change_ytd": null,
-          "ytd_from": "2026-09-23",
+          "ytd_from": "2026-09-24",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2198",
@@ -2540,7 +2540,7 @@
             null,
             null,
             null,
-            1223.44,
+            null,
             1206.15,
             1206.15,
             1206.15,
@@ -2900,7 +2900,7 @@
             "06/11",
             "07/11"
           ],
-          "data_points": 46
+          "data_points": 45
         },
         {
           "name": "PP",
@@ -2911,7 +2911,7 @@
           "change_1d": 0.0,
           "change_1w": -9.0,
           "change_ytd": null,
-          "ytd_from": "2026-09-23",
+          "ytd_from": "2026-09-24",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2198",
@@ -3184,7 +3184,7 @@
             null,
             null,
             null,
-            1269.03,
+            null,
             1252.05,
             1252.05,
             1252.05,
@@ -3544,7 +3544,7 @@
             "06/11",
             "07/11"
           ],
-          "data_points": 46
+          "data_points": 45
         }
       ],
       "chart_groups": [
