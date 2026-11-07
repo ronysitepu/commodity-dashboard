@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-07T17:00:47Z",
-  "updated_label": "07 Nov 2026 17:00 UTC",
+  "updated": "2026-11-07T21:00:47Z",
+  "updated_label": "07 Nov 2026 21:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 08 Nov 2026 \u00b7 2026 year to date",
@@ -610,7 +610,7 @@
             135.2,
             135.2,
             135.2,
-            145.4,
+            135.2,
             145.0,
             143.5,
             143.5,
@@ -1902,7 +1902,7 @@
             3.084,
             3.0893,
             3.1308,
-            3.37,
+            3.1381,
             3.34,
             3.32,
             3.3214,
@@ -4542,7 +4542,7 @@
           "change_1d": 0.0,
           "change_1w": -3.8,
           "change_ytd": null,
-          "ytd_from": "2026-09-24",
+          "ytd_from": "2026-09-25",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2198",
@@ -4816,7 +4816,7 @@
             null,
             null,
             null,
-            459.0,
+            null,
             458.0,
             457.75,
             457.75,
@@ -5177,7 +5177,7 @@
             "07/11",
             "08/11"
           ],
-          "data_points": 46
+          "data_points": 45
         },
         {
           "name": "DAP",
