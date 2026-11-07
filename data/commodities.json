@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-07T09:00:48Z",
-  "updated_label": "07 Nov 2026 09:00 UTC",
+  "updated": "2026-11-07T13:00:47Z",
+  "updated_label": "07 Nov 2026 13:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 07 Nov 2026 \u00b7 2026 year to date",
@@ -339,7 +339,7 @@
           "freq": "monthly",
           "hist_source": "World Bank Pink Sheet (Updated on November 03, 2026)",
           "trend": "\u2198",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-06",
           "stale": false,
           "history": [
@@ -2915,7 +2915,7 @@
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2198",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-06",
           "stale": false,
           "history": [
@@ -4532,7 +4532,7 @@
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2198",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-06",
           "stale": false,
           "history": [
@@ -5176,7 +5176,7 @@
           "freq": "monthly",
           "hist_source": "World Bank Pink Sheet (Updated on November 03, 2026)",
           "trend": "\u2192",
-          "flat_days": 1,
+          "flat_days": 2,
           "last_change": "2026-11-05",
           "stale": false,
           "history": [
