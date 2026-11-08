@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-08T09:00:48Z",
-  "updated_label": "08 Nov 2026 09:00 UTC",
+  "updated": "2026-11-08T13:00:48Z",
+  "updated_label": "08 Nov 2026 13:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 08 Nov 2026 \u00b7 2026 year to date",
@@ -340,7 +340,7 @@
           "freq": "monthly",
           "hist_source": "World Bank Pink Sheet (Updated on November 03, 2026)",
           "trend": "\u2198",
-          "flat_days": 1,
+          "flat_days": 2,
           "last_change": "2026-11-06",
           "stale": false,
           "history": [
@@ -986,7 +986,7 @@
           "freq": "daily",
           "hist_source": "yfinance BZ=F",
           "trend": "\u2198",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-07",
           "stale": false,
           "history": [
@@ -1632,7 +1632,7 @@
           "freq": "mixed",
           "hist_source": "derived from Coal / Gold",
           "trend": "\u2198",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-07",
           "stale": false,
           "history": [
@@ -2274,7 +2274,7 @@
           "change_1d": -0.7,
           "change_1w": -6.9,
           "change_ytd": null,
-          "ytd_from": "2026-09-24",
+          "ytd_from": "2026-09-28",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2198",
@@ -2548,10 +2548,10 @@
             null,
             null,
             null,
-            1206.15,
-            1206.15,
-            1206.15,
-            1206.15,
+            null,
+            null,
+            null,
+            null,
             1213.31,
             1222.4,
             1220.16,
@@ -2909,7 +2909,7 @@
             "07/11",
             "08/11"
           ],
-          "data_points": 46
+          "data_points": 42
         },
         {
           "name": "PP",
@@ -3900,7 +3900,7 @@
           "freq": "daily",
           "hist_source": "yfinance JKM=F",
           "trend": "\u2198",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-07",
           "stale": false,
           "history": [
@@ -4546,7 +4546,7 @@
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2198",
-          "flat_days": 1,
+          "flat_days": 2,
           "last_change": "2026-11-06",
           "stale": false,
           "history": [
@@ -5192,7 +5192,7 @@
           "freq": "monthly",
           "hist_source": "World Bank Pink Sheet (Updated on November 03, 2026)",
           "trend": "\u2192",
-          "flat_days": 2,
+          "flat_days": 3,
           "last_change": "2026-11-05",
           "stale": false,
           "history": [
@@ -7460,7 +7460,7 @@
           "freq": "daily",
           "hist_source": "yfinance GC=F",
           "trend": "\u2197",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-07",
           "stale": false,
           "history": [
@@ -8752,7 +8752,7 @@
           "freq": "daily",
           "hist_source": "derived from Copper / Gold",
           "trend": "\u2198",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-07",
           "stale": false,
           "history": [
@@ -9719,7 +9719,7 @@
           "freq": "daily",
           "hist_source": "yfinance CPO=F",
           "trend": "\u2198",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-07",
           "stale": false,
           "history": [
