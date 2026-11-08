@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-07T21:00:47Z",
-  "updated_label": "07 Nov 2026 21:00 UTC",
+  "updated": "2026-11-08T01:00:49Z",
+  "updated_label": "08 Nov 2026 01:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 08 Nov 2026 \u00b7 2026 year to date",
@@ -2267,19 +2267,19 @@
         },
         {
           "name": "Polyethylene",
-          "price": 1314.0,
-          "raw_price": 1314.3,
+          "price": 1306.0,
+          "raw_price": 1305.54,
           "unit": "USD/T",
           "color": "#4fc3f7",
-          "change_1d": 0.0,
-          "change_1w": -6.3,
+          "change_1d": -0.7,
+          "change_1w": -6.9,
           "change_ytd": null,
           "ytd_from": "2026-09-24",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2198",
           "flat_days": 0,
-          "last_change": "2026-11-07",
+          "last_change": "2026-11-08",
           "stale": false,
           "history": [
             null,
@@ -2593,7 +2593,7 @@
             1410.3,
             1365.9,
             1314.3,
-            1314.3
+            1305.54
           ],
           "labels": [
             "01/01",
@@ -2913,19 +2913,19 @@
         },
         {
           "name": "PP",
-          "price": 1424.0,
-          "raw_price": 1424.4,
+          "price": 1415.0,
+          "raw_price": 1414.9,
           "unit": "USD/T",
           "color": "#ba68c8",
-          "change_1d": 0.0,
-          "change_1w": -9.0,
+          "change_1d": -0.7,
+          "change_1w": -9.6,
           "change_ytd": null,
           "ytd_from": "2026-09-24",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2198",
-          "flat_days": 1,
-          "last_change": "2026-11-06",
+          "flat_days": 0,
+          "last_change": "2026-11-08",
           "stale": false,
           "history": [
             null,
@@ -3239,7 +3239,7 @@
             1476.15,
             1424.4,
             1424.4,
-            1424.4
+            1414.9
           ],
           "labels": [
             "01/01",
@@ -9989,7 +9989,7 @@
             1203.75,
             1200.25,
             1197.5,
-            1200.25,
+            1196.75,
             1197.5,
             1196.75,
             1196.75,
