@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-11T17:00:13Z",
-  "updated_label": "11 Nov 2026 17:00 UTC",
+  "updated": "2026-11-11T21:00:13Z",
+  "updated_label": "11 Nov 2026 21:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 12 Nov 2026 \u00b7 2026 year to date",
@@ -987,13 +987,13 @@
         },
         {
           "name": "Brent",
-          "price": 93.66,
-          "raw_price": 93.656,
+          "price": 92.51,
+          "raw_price": 92.509,
           "unit": "USD/Bbl",
           "color": "#ef5350",
-          "change_1d": 0.6,
-          "change_1w": -3.1,
-          "change_ytd": 54.2,
+          "change_1d": -0.7,
+          "change_1w": -4.3,
+          "change_ytd": 52.3,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance BZ=F",
@@ -1317,7 +1317,7 @@
             93.851,
             90.098,
             93.12,
-            93.656
+            92.509
           ],
           "labels": [
             "01/01",
@@ -1641,13 +1641,13 @@
         },
         {
           "name": "Coal/Gold",
-          "price": 3.47,
-          "raw_price": 3.47,
+          "price": 3.48,
+          "raw_price": 3.48,
           "unit": "\u00d7100",
           "color": "#78909c",
-          "change_1d": 1.2,
-          "change_1w": -1.4,
-          "change_ytd": 50.0,
+          "change_1d": 1.5,
+          "change_1w": -1.1,
+          "change_ytd": 50.4,
           "ytd_from": "2026-01-31",
           "freq": "mixed",
           "hist_source": "derived from Coal / Gold",
@@ -1971,7 +1971,7 @@
             3.41,
             3.38,
             3.43,
-            3.47
+            3.48
           ],
           "labels": [
             "01/01",
@@ -3937,19 +3937,19 @@
       "commodities": [
         {
           "name": "LNG JKM",
-          "price": 31.34,
-          "raw_price": 31.34,
+          "price": 31.33,
+          "raw_price": 31.33,
           "unit": "USD/MMBTU",
           "color": "#ffa726",
-          "change_1d": 0.0,
+          "change_1d": -0.0,
           "change_1w": -0.9,
-          "change_ytd": 223.1,
+          "change_ytd": 223.0,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance JKM=F",
           "trend": "\u2192",
           "flat_days": 0,
-          "last_change": "2026-11-11",
+          "last_change": "2026-11-12",
           "stale": false,
           "history": [
             null,
@@ -4267,7 +4267,7 @@
             31.49,
             31.35,
             31.34,
-            31.34
+            31.33
           ],
           "labels": [
             "01/01",
@@ -7541,13 +7541,13 @@
       "commodities": [
         {
           "name": "Gold",
-          "price": 4007.0,
-          "raw_price": 4006.60009765625,
+          "price": 3995.0,
+          "raw_price": 3994.60009765625,
           "unit": "USD/oz",
           "color": "#ffd54f",
-          "change_1d": -1.1,
-          "change_1w": -3.0,
-          "change_ytd": -7.5,
+          "change_1d": -1.4,
+          "change_1w": -3.2,
+          "change_ytd": -7.7,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance GC=F",
@@ -7871,7 +7871,7 @@
             4132.10009765625,
             4086.60009765625,
             4051.0,
-            4006.60009765625
+            3994.60009765625
           ],
           "labels": [
             "01/01",
@@ -8195,17 +8195,17 @@
         },
         {
           "name": "Copper",
-          "price": 6.3,
-          "raw_price": 6.303999900817871,
+          "price": 6.27,
+          "raw_price": 6.271500110626221,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": 0.1,
-          "change_1w": -1.5,
-          "change_ytd": 11.8,
+          "change_1d": -0.4,
+          "change_1w": -2.0,
+          "change_ytd": 11.2,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance HG=F",
-          "trend": "\u2197",
+          "trend": "\u2192",
           "flat_days": 0,
           "last_change": "2026-11-12",
           "stale": false,
@@ -8525,7 +8525,7 @@
             6.3404998779296875,
             6.306000232696533,
             6.298999786376953,
-            6.303999900817871
+            6.271500110626221
           ],
           "labels": [
             "01/01",
