@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-14T09:00:37Z",
-  "updated_label": "14 Nov 2026 09:00 UTC",
+  "updated": "2026-11-14T13:00:38Z",
+  "updated_label": "14 Nov 2026 13:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 14 Nov 2026 \u00b7 2026 year to date",
@@ -2978,7 +2978,7 @@
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2198",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-13",
           "stale": false,
           "history": [
