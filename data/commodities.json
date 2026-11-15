@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-15T09:00:38Z",
-  "updated_label": "15 Nov 2026 09:00 UTC",
+  "updated": "2026-11-15T13:00:38Z",
+  "updated_label": "15 Nov 2026 13:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 15 Nov 2026 \u00b7 2026 year to date",
@@ -5964,7 +5964,7 @@
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2197",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-14",
           "stale": false,
           "history": [
@@ -6624,7 +6624,7 @@
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2197",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-14",
           "stale": false,
           "history": [
@@ -7621,7 +7621,7 @@
           "freq": "daily",
           "hist_source": "yfinance GC=F",
           "trend": "\u2198",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-14",
           "stale": false,
           "history": [
@@ -9929,7 +9929,7 @@
           "freq": "daily",
           "hist_source": "yfinance CPO=F",
           "trend": "\u2197",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-14",
           "stale": false,
           "history": [
