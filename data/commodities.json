@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-14T21:00:38Z",
-  "updated_label": "14 Nov 2026 21:00 UTC",
+  "updated": "2026-11-15T01:00:38Z",
+  "updated_label": "15 Nov 2026 01:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 15 Nov 2026 \u00b7 2026 year to date",
@@ -2976,19 +2976,19 @@
         },
         {
           "name": "PP",
-          "price": 1395.0,
-          "raw_price": 1395.3,
+          "price": 1386.0,
+          "raw_price": 1386.0,
           "unit": "USD/T",
           "color": "#ba68c8",
-          "change_1d": 0.0,
-          "change_1w": -1.4,
+          "change_1d": -0.7,
+          "change_1w": -2.0,
           "change_ytd": null,
           "ytd_from": "2026-10-01",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2198",
-          "flat_days": 1,
-          "last_change": "2026-11-13",
+          "flat_days": 0,
+          "last_change": "2026-11-15",
           "stale": false,
           "history": [
             null,
@@ -3309,7 +3309,7 @@
             1377.45,
             1395.3,
             1395.3,
-            1395.3
+            1386.0
           ],
           "labels": [
             "01/01",
