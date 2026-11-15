@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-15T01:00:38Z",
-  "updated_label": "15 Nov 2026 01:00 UTC",
+  "updated": "2026-11-15T05:00:39Z",
+  "updated_label": "15 Nov 2026 05:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 15 Nov 2026 \u00b7 2026 year to date",
@@ -8270,19 +8270,19 @@
         },
         {
           "name": "Copper",
-          "price": 6.08,
-          "raw_price": 6.079500198364258,
+          "price": 6.09,
+          "raw_price": 6.0904998779296875,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": 0.0,
-          "change_1w": -2.5,
-          "change_ytd": 7.8,
+          "change_1d": 0.2,
+          "change_1w": -2.4,
+          "change_ytd": 8.0,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance HG=F",
           "trend": "\u2198",
           "flat_days": 0,
-          "last_change": "2026-11-14",
+          "last_change": "2026-11-15",
           "stale": false,
           "history": [
             null,
@@ -8603,7 +8603,7 @@
             6.201499938964844,
             6.160999774932861,
             6.079500198364258,
-            6.079500198364258
+            6.0904998779296875
           ],
           "labels": [
             "01/01",
@@ -8930,19 +8930,19 @@
         },
         {
           "name": "Copper/Gold",
-          "price": 1.56,
-          "raw_price": 1.56,
+          "price": 1.57,
+          "raw_price": 1.57,
           "unit": "\u00d71000",
           "color": "#26a69a",
-          "change_1d": 0.0,
-          "change_1w": 2.0,
-          "change_ytd": 19.8,
+          "change_1d": 0.6,
+          "change_1w": 2.6,
+          "change_ytd": 20.5,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "derived from Copper / Gold",
           "trend": "\u2197",
           "flat_days": 0,
-          "last_change": "2026-11-14",
+          "last_change": "2026-11-15",
           "stale": false,
           "history": [
             null,
@@ -9263,7 +9263,7 @@
             1.57,
             1.58,
             1.56,
-            1.56
+            1.57
           ],
           "labels": [
             "01/01",
