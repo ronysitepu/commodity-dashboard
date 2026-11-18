@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T01:00:38Z",
-  "updated_label": "18 Nov 2026 01:00 UTC",
+  "updated": "2026-11-18T05:00:38Z",
+  "updated_label": "18 Nov 2026 05:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 18 Nov 2026 \u00b7 2026 year to date",
@@ -1340,8 +1340,8 @@
             96.181,
             96.181,
             92.44,
-            93.1,
-            93.1
+            93.14,
+            92.77
           ],
           "labels": [
             "01/01",
@@ -2007,7 +2007,7 @@
             3.7375,
             3.7508,
             3.7612,
-            3.8016
+            3.8369
           ],
           "labels": [
             "01/01",
@@ -4344,8 +4344,8 @@
             31.37,
             31.37,
             27.575,
-            27.575,
-            27.575
+            27.77,
+            27.77
           ],
           "labels": [
             "01/01",
@@ -7679,13 +7679,13 @@
       "commodities": [
         {
           "name": "Gold",
-          "price": 3821.0,
-          "raw_price": 3820.800048828125,
+          "price": 3786.0,
+          "raw_price": 3785.60009765625,
           "unit": "USD/oz",
           "color": "#ffd54f",
-          "change_1d": -1.1,
-          "change_1w": -5.7,
-          "change_ytd": -11.8,
+          "change_1d": -2.0,
+          "change_1w": -6.6,
+          "change_ytd": -12.6,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance GC=F",
@@ -8015,7 +8015,7 @@
             3886.300048828125,
             3872.5,
             3861.800048828125,
-            3820.800048828125
+            3785.60009765625
           ],
           "labels": [
             "01/01",
@@ -8345,13 +8345,13 @@
         },
         {
           "name": "Copper",
-          "price": 5.98,
-          "raw_price": 5.977499961853027,
+          "price": 5.88,
+          "raw_price": 5.883500099182129,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": -0.1,
-          "change_1w": -5.1,
-          "change_ytd": 6.0,
+          "change_1d": -1.6,
+          "change_1w": -6.6,
+          "change_ytd": 4.3,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance HG=F",
@@ -8681,7 +8681,7 @@
             6.0904998779296875,
             6.034999847412109,
             5.98199987411499,
-            5.977499961853027
+            5.883500099182129
           ],
           "labels": [
             "01/01",
@@ -9011,19 +9011,19 @@
         },
         {
           "name": "Copper/Gold",
-          "price": 1.55,
-          "raw_price": 1.55,
+          "price": 1.56,
+          "raw_price": 1.56,
           "unit": "\u00d71000",
           "color": "#26a69a",
-          "change_1d": 0.0,
-          "change_1w": 0.0,
-          "change_ytd": 19.0,
+          "change_1d": 0.6,
+          "change_1w": 0.6,
+          "change_ytd": 19.8,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "derived from Copper / Gold",
           "trend": "\u2198",
           "flat_days": 0,
-          "last_change": "2026-11-17",
+          "last_change": "2026-11-18",
           "stale": false,
           "history": [
             null,
@@ -9347,7 +9347,7 @@
             1.57,
             1.56,
             1.55,
-            1.55
+            1.56
           ],
           "labels": [
             "01/01",
@@ -10008,19 +10008,19 @@
       "commodities": [
         {
           "name": "CPO",
-          "price": 1102.0,
-          "raw_price": 1101.75,
+          "price": 1088.0,
+          "raw_price": 1088.0,
           "unit": "USD/T",
           "color": "#8d6e63",
-          "change_1d": 0.0,
-          "change_1w": 2.3,
-          "change_ytd": 11.9,
+          "change_1d": -1.2,
+          "change_1w": 1.1,
+          "change_ytd": 10.5,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance CPO=F",
           "trend": "\u2192",
           "flat_days": 0,
-          "last_change": "2026-11-17",
+          "last_change": "2026-11-18",
           "stale": false,
           "history": [
             null,
@@ -10344,7 +10344,7 @@
             1105.0,
             1105.0,
             1101.75,
-            1101.75
+            1088.0
           ],
           "labels": [
             "01/01",
