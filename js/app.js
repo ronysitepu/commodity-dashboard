@@ -79,6 +79,12 @@
 
   function staleBadge(c) {
     if (!c.stale) return '';
+    if (c.stale_reason === 'feed') {
+      var age = c.feed_age_days;
+      return '<span class="stale-badge" title="No update for ' + age +
+        ' days - the upstream feed stopped, so this is the last known price, not a live quote.">' +
+        'no feed ' + age + 'd</span>';
+    }
     var d = c.last_change ? c.last_change.slice(5).replace('-', '/') : '';
     return '<span class="stale-badge" title="Price has not moved in ' + c.flat_days +
       ' days (last change ' + (c.last_change || 'n/a') + '). Source may be republishing a stale assessment.">' +
