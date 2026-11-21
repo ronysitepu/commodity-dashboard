@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-21T09:00:21Z",
-  "updated_label": "21 Nov 2026 09:00 UTC",
+  "updated": "2026-11-21T13:00:21Z",
+  "updated_label": "21 Nov 2026 13:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 21 Nov 2026 \u00b7 2026 year to date",
@@ -4068,7 +4068,7 @@
           "trend": "\u2198",
           "flat_days": 0,
           "last_change": "2026-11-13",
-          "feed_age_days": 7,
+          "feed_age_days": 8,
           "stale": true,
           "stale_reason": "feed",
           "history": [
@@ -5416,7 +5416,7 @@
           "trend": "\u2192",
           "flat_days": 1,
           "last_change": "2026-11-11",
-          "feed_age_days": 7,
+          "feed_age_days": 8,
           "stale": true,
           "stale_reason": "feed",
           "history": [
