@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T17:00:24Z",
-  "updated_label": "22 Nov 2026 17:00 UTC",
+  "updated": "2026-11-22T21:00:24Z",
+  "updated_label": "22 Nov 2026 21:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 23 Nov 2026 \u00b7 2026 year to date",
@@ -2378,19 +2378,19 @@
         },
         {
           "name": "Polyethylene",
-          "price": 1189.0,
-          "raw_price": 1189.02,
+          "price": 1180.0,
+          "raw_price": 1179.63,
           "unit": "USD/T",
           "color": "#4fc3f7",
-          "change_1d": 0.0,
+          "change_1d": -0.8,
           "change_1w": null,
           "change_ytd": null,
           "ytd_from": "2026-10-09",
           "freq": "daily",
           "hist_source": "tradingeconomics/yfinance (monitor cache)",
           "trend": "\u2198",
-          "flat_days": 1,
-          "last_change": "2026-11-21",
+          "flat_days": 0,
+          "last_change": "2026-11-23",
           "feed_age_days": 0,
           "stale": false,
           "stale_reason": null,
@@ -2721,7 +2721,7 @@
             1179.63,
             1189.02,
             1189.02,
-            1189.02
+            1179.63
           ],
           "labels": [
             "01/01",
