@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T01:00:25Z",
-  "updated_label": "22 Nov 2026 01:00 UTC",
+  "updated": "2026-11-22T05:00:27Z",
+  "updated_label": "22 Nov 2026 05:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 22 Nov 2026 \u00b7 2026 year to date",
@@ -8467,19 +8467,19 @@
         },
         {
           "name": "Copper",
-          "price": 5.48,
-          "raw_price": 5.4770002365112305,
+          "price": 5.49,
+          "raw_price": 5.485000133514404,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": 0.0,
-          "change_1w": -10.1,
-          "change_ytd": -2.9,
+          "change_1d": 0.1,
+          "change_1w": -9.9,
+          "change_ytd": -2.7,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance HG=F",
           "trend": "\u2198",
           "flat_days": 0,
-          "last_change": "2026-11-21",
+          "last_change": "2026-11-22",
           "feed_age_days": 0,
           "stale": false,
           "stale_reason": null,
@@ -8809,7 +8809,7 @@
             5.646500110626221,
             5.5345001220703125,
             5.4770002365112305,
-            5.4770002365112305
+            5.485000133514404
           ],
           "labels": [
             "01/01",
