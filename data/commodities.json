@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25T09:00:21Z",
-  "updated_label": "25 Nov 2026 09:00 UTC",
+  "updated": "2026-11-25T13:00:21Z",
+  "updated_label": "25 Nov 2026 13:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 25 Nov 2026 \u00b7 2026 year to date",
@@ -1028,13 +1028,13 @@
         },
         {
           "name": "Brent",
-          "price": 90.14,
-          "raw_price": 90.14,
+          "price": 92.18,
+          "raw_price": 92.18,
           "unit": "USD/Bbl",
           "color": "#ef5350",
-          "change_1d": 0.7,
+          "change_1d": 2.9,
           "change_1w": null,
-          "change_ytd": 48.4,
+          "change_ytd": 51.7,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance BZ=F",
@@ -1373,7 +1373,7 @@
             92.57,
             91.07,
             89.54,
-            90.14
+            92.18
           ],
           "labels": [
             "01/01",
@@ -1710,13 +1710,13 @@
         },
         {
           "name": "Coal/Gold",
-          "price": 4.16,
-          "raw_price": 4.16,
+          "price": 4.18,
+          "raw_price": 4.18,
           "unit": "\u00d7100",
           "color": "#78909c",
-          "change_1d": 3.0,
+          "change_1d": 3.5,
           "change_1w": null,
-          "change_ytd": 79.8,
+          "change_ytd": 80.6,
           "ytd_from": "2026-01-31",
           "freq": "mixed",
           "hist_source": "derived from Coal / Gold",
@@ -2055,7 +2055,7 @@
             4.12,
             4.06,
             4.04,
-            4.16
+            4.18
           ],
           "labels": [
             "01/01",
@@ -4116,7 +4116,7 @@
           "trend": "\u2197",
           "flat_days": 0,
           "last_change": "2026-11-13",
-          "feed_age_days": 11,
+          "feed_age_days": 12,
           "stale": true,
           "stale_reason": "feed",
           "history": [
@@ -5480,7 +5480,7 @@
           "trend": "\u2192",
           "flat_days": 1,
           "last_change": "2026-11-11",
-          "feed_age_days": 11,
+          "feed_age_days": 12,
           "stale": true,
           "stale_reason": "feed",
           "history": [
@@ -7860,13 +7860,13 @@
       "commodities": [
         {
           "name": "Gold",
-          "price": 3567.0,
-          "raw_price": 3566.800048828125,
+          "price": 3544.0,
+          "raw_price": 3544.300048828125,
           "unit": "USD/oz",
           "color": "#ffd54f",
-          "change_1d": -2.1,
-          "change_1w": -4.9,
-          "change_ytd": -17.6,
+          "change_1d": -2.7,
+          "change_1w": -5.5,
+          "change_ytd": -18.1,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance GC=F",
@@ -8205,7 +8205,7 @@
             3515.39990234375,
             3615.60009765625,
             3642.5,
-            3566.800048828125
+            3544.300048828125
           ],
           "labels": [
             "01/01",
@@ -8542,13 +8542,13 @@
         },
         {
           "name": "Copper",
-          "price": 5.42,
-          "raw_price": 5.421000003814697,
+          "price": 5.4,
+          "raw_price": 5.397500038146973,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": -2.2,
-          "change_1w": -5.8,
-          "change_ytd": -3.9,
+          "change_1d": -2.6,
+          "change_1w": -6.2,
+          "change_ytd": -4.3,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance HG=F",
@@ -8887,7 +8887,7 @@
             5.485000133514404,
             5.490499973297119,
             5.544000148773193,
-            5.421000003814697
+            5.397500038146973
           ],
           "labels": [
             "01/01",
@@ -9224,19 +9224,19 @@
         },
         {
           "name": "Copper/Gold",
-          "price": 1.54,
-          "raw_price": 1.54,
+          "price": 1.52,
+          "raw_price": 1.52,
           "unit": "\u00d71000",
           "color": "#26a69a",
-          "change_1d": 1.3,
-          "change_1w": 0.0,
-          "change_ytd": 18.2,
+          "change_1d": 0.0,
+          "change_1w": -1.3,
+          "change_ytd": 16.7,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "derived from Copper / Gold",
           "trend": "\u2192",
-          "flat_days": 0,
-          "last_change": "2026-11-25",
+          "flat_days": 2,
+          "last_change": "2026-11-23",
           "feed_age_days": 0,
           "stale": false,
           "stale_reason": null,
@@ -9569,7 +9569,7 @@
             1.56,
             1.52,
             1.52,
-            1.54
+            1.52
           ],
           "labels": [
             "01/01",
@@ -10255,7 +10255,7 @@
           "freq": "daily",
           "hist_source": "yfinance CPO=F",
           "trend": "\u2198",
-          "flat_days": 0,
+          "flat_days": 1,
           "last_change": "2026-11-24",
           "feed_age_days": 0,
           "stale": false,
