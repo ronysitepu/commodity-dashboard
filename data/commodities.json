@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T21:00:26Z",
-  "updated_label": "24 Nov 2026 21:00 UTC",
+  "updated": "2026-11-25T01:00:26Z",
+  "updated_label": "25 Nov 2026 01:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 25 Nov 2026 \u00b7 2026 year to date",
@@ -346,19 +346,19 @@
       "commodities": [
         {
           "name": "Coal",
-          "price": 147.3,
-          "raw_price": 147.3,
+          "price": 148.25,
+          "raw_price": 148.25,
           "unit": "USD/T",
           "color": "#ff6b6b",
-          "change_1d": 0.0,
+          "change_1d": 0.6,
           "change_1w": null,
-          "change_ytd": 34.2,
+          "change_ytd": 35.0,
           "ytd_from": "2026-01-31",
           "freq": "monthly",
           "hist_source": "World Bank Pink Sheet (Updated on November 03, 2026)",
           "trend": "\u2197",
           "flat_days": 0,
-          "last_change": "2026-11-24",
+          "last_change": "2026-11-25",
           "feed_age_days": 0,
           "stale": false,
           "stale_reason": null,
@@ -691,7 +691,7 @@
             144.95,
             146.85,
             147.3,
-            147.3
+            148.25
           ],
           "labels": [
             "01/01",
@@ -1028,13 +1028,13 @@
         },
         {
           "name": "Brent",
-          "price": 90.75,
-          "raw_price": 90.75,
+          "price": 91.16,
+          "raw_price": 91.16,
           "unit": "USD/Bbl",
           "color": "#ef5350",
-          "change_1d": 1.4,
+          "change_1d": 1.8,
           "change_1w": null,
-          "change_ytd": 49.4,
+          "change_ytd": 50.1,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance BZ=F",
@@ -1373,7 +1373,7 @@
             92.57,
             91.07,
             89.54,
-            90.75
+            91.16
           ],
           "labels": [
             "01/01",
@@ -1710,13 +1710,13 @@
         },
         {
           "name": "Coal/Gold",
-          "price": 4.15,
-          "raw_price": 4.15,
+          "price": 4.18,
+          "raw_price": 4.18,
           "unit": "\u00d7100",
           "color": "#78909c",
-          "change_1d": 2.7,
+          "change_1d": 3.5,
           "change_1w": null,
-          "change_ytd": 79.3,
+          "change_ytd": 80.6,
           "ytd_from": "2026-01-31",
           "freq": "mixed",
           "hist_source": "derived from Coal / Gold",
@@ -2055,7 +2055,7 @@
             4.12,
             4.06,
             4.04,
-            4.15
+            4.18
           ],
           "labels": [
             "01/01",
@@ -7860,13 +7860,13 @@
       "commodities": [
         {
           "name": "Gold",
-          "price": 3550.0,
-          "raw_price": 3549.699951171875,
+          "price": 3548.0,
+          "raw_price": 3548.0,
           "unit": "USD/oz",
           "color": "#ffd54f",
-          "change_1d": -2.5,
-          "change_1w": -5.3,
-          "change_ytd": -18.0,
+          "change_1d": -2.6,
+          "change_1w": -5.4,
+          "change_ytd": -18.1,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance GC=F",
@@ -8205,7 +8205,7 @@
             3515.39990234375,
             3615.60009765625,
             3642.5,
-            3549.699951171875
+            3548.0
           ],
           "labels": [
             "01/01",
@@ -8542,13 +8542,13 @@
         },
         {
           "name": "Copper",
-          "price": 5.48,
-          "raw_price": 5.484000205993652,
+          "price": 5.46,
+          "raw_price": 5.462500095367432,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": -1.1,
-          "change_1w": -4.7,
-          "change_ytd": -2.8,
+          "change_1d": -1.5,
+          "change_1w": -5.1,
+          "change_ytd": -3.1,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance HG=F",
@@ -8887,7 +8887,7 @@
             5.485000133514404,
             5.490499973297119,
             5.544000148773193,
-            5.484000205993652
+            5.462500095367432
           ],
           "labels": [
             "01/01",
