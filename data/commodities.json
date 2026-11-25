@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25T01:00:26Z",
-  "updated_label": "25 Nov 2026 01:00 UTC",
+  "updated": "2026-11-25T05:00:21Z",
+  "updated_label": "25 Nov 2026 05:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 25 Nov 2026 \u00b7 2026 year to date",
@@ -1028,13 +1028,13 @@
         },
         {
           "name": "Brent",
-          "price": 91.16,
-          "raw_price": 91.16,
+          "price": 90.08,
+          "raw_price": 90.08,
           "unit": "USD/Bbl",
           "color": "#ef5350",
-          "change_1d": 1.8,
+          "change_1d": 0.6,
           "change_1w": null,
-          "change_ytd": 50.1,
+          "change_ytd": 48.3,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance BZ=F",
@@ -1373,7 +1373,7 @@
             92.57,
             91.07,
             89.54,
-            91.16
+            90.08
           ],
           "labels": [
             "01/01",
@@ -4447,8 +4447,8 @@
             28.415,
             28.415,
             28.64,
-            28.64,
-            28.64
+            28.81,
+            28.81
           ],
           "labels": [
             "01/01",
@@ -8542,13 +8542,13 @@
         },
         {
           "name": "Copper",
-          "price": 5.46,
-          "raw_price": 5.462500095367432,
+          "price": 5.45,
+          "raw_price": 5.447500228881836,
           "unit": "USD/lb",
           "color": "#ff7043",
-          "change_1d": -1.5,
-          "change_1w": -5.1,
-          "change_ytd": -3.1,
+          "change_1d": -1.7,
+          "change_1w": -5.3,
+          "change_ytd": -3.4,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance HG=F",
@@ -8887,7 +8887,7 @@
             5.485000133514404,
             5.490499973297119,
             5.544000148773193,
-            5.462500095367432
+            5.447500228881836
           ],
           "labels": [
             "01/01",
