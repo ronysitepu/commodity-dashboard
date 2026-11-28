@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-28T05:00:13Z",
-  "updated_label": "28 Nov 2026 05:00 UTC",
+  "updated": "2026-11-28T09:00:13Z",
+  "updated_label": "28 Nov 2026 09:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 28 Nov 2026 \u00b7 2026 year to date",
@@ -9305,19 +9305,19 @@
         },
         {
           "name": "Copper/Gold",
-          "price": 1.53,
-          "raw_price": 1.53,
+          "price": 1.52,
+          "raw_price": 1.52,
           "unit": "\u00d71000",
           "color": "#26a69a",
-          "change_1d": 0.0,
-          "change_1w": -1.9,
-          "change_ytd": 17.4,
+          "change_1d": -0.7,
+          "change_1w": -2.6,
+          "change_ytd": 16.7,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "derived from Copper / Gold",
           "trend": "\u2192",
           "flat_days": 0,
-          "last_change": "2026-11-27",
+          "last_change": "2026-11-28",
           "feed_age_days": 0,
           "stale": false,
           "stale_reason": null,
@@ -9653,7 +9653,7 @@
             1.52,
             1.52,
             1.53,
-            1.53
+            1.52
           ],
           "labels": [
             "01/01",
