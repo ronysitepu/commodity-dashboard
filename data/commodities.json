@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27T21:00:12Z",
-  "updated_label": "27 Nov 2026 21:00 UTC",
+  "updated": "2026-11-28T01:00:12Z",
+  "updated_label": "28 Nov 2026 01:00 UTC",
   "range": {
     "label": "YTD 2026",
     "note": "01 Jan 2026 \u2192 28 Nov 2026 \u00b7 2026 year to date",
@@ -1037,13 +1037,13 @@
         },
         {
           "name": "Brent",
-          "price": 94.95,
-          "raw_price": 94.95,
+          "price": 94.0,
+          "raw_price": 94.0,
           "unit": "USD/Bbl",
           "color": "#ef5350",
-          "change_1d": -1.7,
-          "change_1w": 2.6,
-          "change_ytd": 56.3,
+          "change_1d": -2.7,
+          "change_1w": 1.6,
+          "change_ytd": 54.7,
           "ytd_from": "2026-01-02",
           "freq": "daily",
           "hist_source": "yfinance BZ=F",
@@ -1385,7 +1385,7 @@
             92.18,
             95.31,
             96.57,
-            94.95
+            94.0
           ],
           "labels": [
             "01/01",
